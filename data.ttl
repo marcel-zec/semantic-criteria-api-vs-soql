@@ -1,0 +1,1322 @@
+@prefix yago:  <http://dbpedia.org/class/yago/> .
+@prefix xsd:   <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ns31:  <http://dbpedia.org/resource/Fragile_Dreams:> .
+@prefix ns30:  <http://dbpedia.org/resource/Deus_Ex:> .
+@prefix ns8:   <http://dbpedia.org/resource/Blue_Dragon:> .
+@prefix ns7:   <http://dbpedia.org/resource/Beyond:> .
+@prefix ns13:  <http://dbpedia.org/resource/Disney_Princess:> .
+@prefix ns12:  <http://dbpedia.org/resource/Famicom_Jump:> .
+@prefix ns9:   <http://dbpedia.org/resource/Might_&_Magic:> .
+@prefix ns34:  <http://dbpedia.org/resource/Spectral_Force_3:> .
+@prefix ns11:  <http://dbpedia.org/resource/Ben_10_Alien_Force:> .
+@prefix ns33:  <http://dbpedia.org/resource/Pokémon_Mystery_Dungeon:> .
+@prefix ns10:  <http://dbpedia.org/resource/Ben_10:> .
+@prefix ns32:  <http://dbpedia.org/resource/GoPets:> .
+@prefix ns17:  <http://dbpedia.org/resource/Drakensang:> .
+@prefix ns16:  <http://dbpedia.org/resource/CivCity:> .
+@prefix ns38:  <http://dbpedia.org/resource/Toy_Story_3:> .
+@prefix ns15:  <http://dbpedia.org/resource/Tenchu:> .
+@prefix ns37:  <http://dbpedia.org/resource/Time_Crisis:> .
+@prefix ns14:  <http://dbpedia.org/resource/Harvest_Moon:> .
+@prefix ns36:  <http://dbpedia.org/resource/The_Legend_of_Zelda:> .
+@prefix foaf:  <http://xmlns.com/foaf/0.1/> .
+@prefix ns19:  <http://dbpedia.org/resource/Need_for_Speed:> .
+@prefix ns18:  <http://dbpedia.org/resource/Tzar:> .
+@prefix dbo:   <http://dbpedia.org/ontology/> .
+@prefix ns20:  <http://dbpedia.org/resource/Spycraft:> .
+@prefix ns24:  <http://dbpedia.org/resource/Star_Trek:> .
+@prefix dbr:   <http://dbpedia.org/resource/> .
+@prefix rdf:   <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix ns23:  <http://dbpedia.org/resource/Back_at_the_Barnyard:> .
+@prefix ns22:  <http://dbpedia.org/resource/Terminator_3:> .
+@prefix ns21:  <http://dbpedia.org/resource/Zork:> .
+@prefix ns28:  <http://dbpedia.org/resource/Mario_&_Luigi:> .
+@prefix ns27:  <http://dbpedia.org/resource/Space_Miner:> .
+@prefix ns26:  <http://dbpedia.org/resource/Theatrhythm_Final_Fantasy:> .
+@prefix ns25:  <http://dbpedia.org/resource/Dark_Side_of_the_Moon:> .
+@prefix ns29:  <http://dbpedia.org/resource/Spider-Man:> .
+
+dbr:Awesomenauts  a      dbo:VideoGame ;
+        rdfs:comment     "Awesomenauts is a 2D multiplayer online battle arena developed by Dutch video game development company Ronimo Games. The original game was released for PlayStation 3 and Xbox 360 consoles in May 2012, and for Microsoft Windows systems in August 2012. It was later ported to OS X and Linux. Another version of the game, Awesomenauts Assemble!, incorporating all the changes and additions available on Windows, OS X and Linux, was released for the PlayStation 4 in March 2014."@en ;
+        dbo:developer    dbr:Ronimo_Games ;
+        dbo:releaseDate  "2016-09-07"^^xsd:date ;
+        foaf:name        "Awesomenauts"@en .
+
+<http://dbpedia.org/resource/'Splosion_Man>
+        a                dbo:VideoGame ;
+        rdfs:comment     "'Splosion Man is a 2.5D action platform video game developed by Twisted Pixel Games for the Xbox 360's Xbox Live Arcade digital download service. It was released on July 22, 2009 as part of the 2009 Xbox Live Summer of Arcade. Players control 'Splosion Man, an escaped science experiment with the ability to explode himself repeatedly, as he works his way through obstacles and traps trying to exit the fictional laboratory known as Big Science."@en ;
+        dbo:developer    dbr:Twisted_Pixel_Games ;
+        dbo:releaseDate  "2009-07-22"^^xsd:date ;
+        foaf:name        "'Splosion Man"@en .
+
+dbr:Quantic_Dream  a           yago:WikicatVideoGameDevelopmentCompanies ;
+        rdfs:comment           "Quantic Dream SA is a French video game developer based in Paris, France, founded in 1997. The company also supplies motion capture services to the film and video game industries. They are well known for their interactive drama story based games such as Heavy Rain, Indigo Prophecy and Beyond: Two Souls."@en ;
+        dbo:numberOfEmployees  "170"^^xsd:nonNegativeInteger ;
+        foaf:homepage          <http://quanticdream.com> ;
+        foaf:name              "Quantic Dream SA"@en .
+
+dbr:Paon  a                    yago:WikicatVideoGameDevelopmentCompanies ;
+        rdfs:comment           "Paon (パオン) is a video game development company based in Japan. Through a partnership with Nintendo, the company has developed DK: King of Swing, DK: Jungle Climber and Donkey Kong Barrel Blast. They also developed Glory of Heracles, the fifth title of the Glory of Heracles series."@en ;
+        dbo:numberOfEmployees  "120"^^xsd:nonNegativeInteger ;
+        foaf:homepage          <http://www.paon.co.jp/> ;
+        foaf:name              "Paon Corporation, Ltd."@en .
+
+dbr:Firefly_Studios  a         yago:WikicatVideoGameDevelopmentCompanies ;
+        rdfs:comment           "Firefly Studios is a British computer game developer that has offices in London, England and Canton, Connecticut, with a QA department in Aberdeen, Scotland. The Company was formed in August 1999 by Simon Bradbury, Eric Ouellette and David Lester who had worked together on numerous titles such as the highly successful Caesar and Lords of the Realm series. Upon forming, Firefly released a mission statement that set out their vision for their company:"@en ;
+        dbo:numberOfEmployees  "26"^^xsd:nonNegativeInteger ;
+        foaf:homepage          <http://www.fireflyworlds.com/> ;
+        foaf:name              "Firefly Studios"@en .
+
+dbr:Outpost_Kaloki_X  a  dbo:VideoGame ;
+        rdfs:comment     "Outpost Kaloki X is a city-building video game for the Xbox 360 that places the player in the role of a manager, tasked with building a financially successful fantasy space station. Outpost Kaloki X is available for download from Xbox Live Arcade. The PC version for Microsoft Windows is called Outpost Kaloki (no X), and is available for download directly from NinjaBee."@en ;
+        dbo:developer    dbr:NinjaBee ;
+        dbo:releaseDate  "2005-11-22"^^xsd:date ;
+        foaf:name        "Outpost Kaloki X"@en .
+
+<http://dbpedia.org/resource/Seaman_(video_game)>
+        a                dbo:VideoGame ;
+        rdfs:comment     "Seaman (シーマン Shīman) is a virtual pet video game for the Sega Dreamcast. It is one of the few Dreamcast games to take advantage of the microphone attachment. The narration is voiced by Toshiyuki Hosokawa in the original Japanese-language version and by Leonard Nimoy in the English-language version and the face of Seaman is actually that of the game's producer, Yoot Saito. A sequel called Seaman 2 was released in Japan for the PlayStation 2 in 2007."@en ;
+        dbo:developer    dbr:Jellyvision ;
+        dbo:releaseDate  "2001-11-15"^^xsd:date ;
+        foaf:name        "Seaman"@en .
+
+dbr:Chaos_Field  a       dbo:VideoGame ;
+        rdfs:comment     "Chaos Field (カオスフィールド Kaosu Fīrudo) is a 2004 shoot 'em up video game developed by MileStone for the Sega NAOMI arcade platform. It was ported to Dreamcast, PlayStation 2, and Nintendo GameCube; the PlayStation 2 version is known as Chaos Field New Order, and the GameCube version is known as Chaos Field Expanded. The GameCube version was also the only standalone version to be released outside Japan, in North America, where it was simply titled Chaos Field. The game is also included in the Ultimate Shooting Collection for the Wii."@en ;
+        dbo:developer    <http://dbpedia.org/resource/MileStone_Inc.> ;
+        dbo:releaseDate  "2020-12-05"^^xsd:date ;
+        foaf:name        "Chaos Field"@en .
+
+<http://dbpedia.org/resource/Voltron:_Defender_of_the_Universe_(video_game)>
+        a                dbo:VideoGame ;
+        rdfs:comment     "Voltron: Defender of the Universe is a twin stick shooter adventure game based on the Voltron television series, developed by Behaviour Interactive and published by THQ. The game was released on November 29, 2011 for the PlayStation Network and released on November 30, 2011 for the Xbox Live Arcade. The game allows players to play as all five lions from the series and to control Voltron, a huge robot formed by combining those lions. The game received mixed reception among critics. Some reviewers were critical of the Voltron robot gameplay sequences, yet others praised the lion sequences. Most critics spoke highly of the fan service given."@en ;
+        dbo:developer    dbr:Behaviour_Interactive ;
+        dbo:releaseDate  "2011-11-30"^^xsd:date ;
+        foaf:name        "Voltron: Defender of the Universe"@en .
+
+<http://dbpedia.org/resource/Nine_Hours,_Nine_Persons,_Nine_Doors>
+        a                dbo:VideoGame ;
+        rdfs:comment     "Nine Hours, Nine Persons, Nine Doors is a visual novel adventure game developed by Chunsoft. It was released in Japan in 2009 and in North America in 2010 for the Nintendo DS, with an iOS version following in 2013 in Japan and 2014 in the rest of the world. The game is the first installment in the Zero Escape series, and is the predecessor to the 2012 game Zero Escape: Virtue's Last Reward."@en ;
+        dbo:developer    dbr:Chunsoft ;
+        dbo:releaseDate  "2016-11-09"^^xsd:date ;
+        foaf:name        "Nine Hours, Nine Persons, Nine Doors"@en .
+
+dbr:Record_of_Agarest_War_Zero
+        a                dbo:VideoGame ;
+        rdfs:comment     "Record of Agarest War Zero, known as Agarest Senki Zero (アガレスト戦記 ZERO Agaresuto Senki Zero) in Japan and Agarest: Generations of War Zero in Europe, is a tactical role-playing game developed by Compile Heart and Red Entertainment. It was published in Japan by Idea Factory on June 25, 2009 for the PlayStation 3. It is the prequel to the 2007 game Record of Agarest War. Both versions feature an extra mode where you can return to the maps from the previous game, and unlock characters via the PlayStation Store or Xbox Live Marketplace."@en ;
+        dbo:developer    dbr:Idea_Factory ;
+        dbo:releaseDate  "2014-04-17"^^xsd:date ;
+        foaf:name        "Record of Agarest War Zero"@en .
+
+dbr:Strawdog_Studios  a        yago:WikicatVideoGameDevelopmentCompanies ;
+        rdfs:comment           "Strawdog Studios Ltd. is a video game developer based in Derby, United Kingdom. The studio was established in 2003 and develops games and applications for Mobile, iOS, Android, PC, PlayStation 3, Xbox 360, Wii, PlayStation Portable, and Nintendo DS. Team Strawdog has a collective flair for creative and innovative original concepts for console and casual games, and has particular expertise in producing games for digital distribution platforms including Microsoft Xbox Live Arcade (XBLA), Sony PSN, Nintendo WiiWare and Apple iPhone."@en ;
+        dbo:numberOfEmployees  "16"^^xsd:nonNegativeInteger ;
+        foaf:homepage          <http://www.strawdogstudios.com> ;
+        foaf:name              "Strawdog Studios Ltd"@en .
+
+dbr:Tenchu:_Dark_Secret
+        a                dbo:VideoGame ;
+        rdfs:comment     "Tenchu: Dark Secret (Tenchu: Dark Shadow in Japan) is an action-adventure stealth video game developed by Polygon Magic and published by From Software in Japan and Nintendo worldwide for the Nintendo DS in 2006. It is also the first game in the Tenchu series to be released for the Nintendo system and not to have a Mature rating from the ESRB."@en ;
+        dbo:developer    dbr:Polygon_Magic ;
+        dbo:releaseDate  "2006-04-06"^^xsd:date ;
+        foaf:name        "Tenchu: Dark Secret"@en .
+
+dbr:MySims_SkyHeroes  a  dbo:VideoGame ;
+        rdfs:comment     "MySims SkyHeroes is a video game developed by Behaviour Interactive and published by Electronic Arts, the sixth in the MySims series. The game was released on September 28, 2010 for the Wii, Nintendo DS, Xbox 360, and PlayStation 3, making it the first game in the MySims video game series on the PlayStation 3 and Xbox 360. It is also the first MySims game to be rated E10+ by the ESRB."@en ;
+        dbo:developer    dbr:Behaviour_Interactive ;
+        dbo:releaseDate  "2010-09-28"^^xsd:date ;
+        foaf:name        "MySims SkyHeroes"@en .
+
+dbr:The_Portopia_Serial_Murder_Case
+        a                dbo:VideoGame ;
+        rdfs:comment     "The Portopia Serial Murder Incident, also known as The Portopia Serial Murder Case, is an adventure game designed by Yuji Horii and published by Enix (now Square Enix). It was first released on the NEC PC-6001 in June 1983, and has since been ported to other personal computers, the Famicom, and mobile phone services. In the game, the player must resolve a murder mystery by searching for clues, exploring different areas, interacting with characters, and solving item-based puzzles."@en ;
+        dbo:developer    dbr:Chunsoft ;
+        dbo:releaseDate  "1985-11-29"^^xsd:date ;
+        foaf:name        "Portopia Renzoku Satsujin Jiken"@en .
+
+dbr:Unknown_Worlds_Entertainment
+        a                      yago:WikicatVideoGameDevelopmentCompanies ;
+        rdfs:comment           "Unknown Worlds Entertainment (UWE) is an independently owned American game development company whose goal is to \"unite the world through play\". Based in San Francisco, California, the studio is best known for the sequel to Natural Selection and Subnautica."@en ;
+        dbo:numberOfEmployees  "20"^^xsd:nonNegativeInteger ;
+        foaf:homepage          <http://www.unknownworlds.com/> ;
+        foaf:name              "Unknown Worlds Entertainment"@en .
+
+dbr:Fragile_Dreams:_Farewell_Ruins_of_the_Moon
+        a                dbo:VideoGame ;
+        rdfs:comment     "Fragile Dreams: Farewell Ruins of the Moon (フラジール ～さよなら月の廃墟～ Furajīru: Sayonara Tsuki no Haikyo) is a role-playing video game for the Wii developed by Namco Bandai Games in co-operation with Tri-Crescendo. The game was released by Namco Bandai Games in Japan on January 22, 2009. It was later published by Xseed Games in North America on March 16, 2010, and in Europe by Rising Star Games on March 19, 2010."@en ;
+        dbo:developer    dbr:Tri-Crescendo ;
+        dbo:releaseDate  "2016-03-09"^^xsd:date ;
+        foaf:name        "Fragile Dreams: Farewell Ruins of the Moon"@en .
+
+dbr:Spider-Man:_Friend_or_Foe
+        a                dbo:VideoGame ;
+        rdfs:comment     "Spider-Man: Friend or Foe is a Spider-Man video game based on the comic book series and Spider-Man movies. The game was released on October 2, 2007. Spider-Man: Friend or Foe was originally announced via a promotional page on the back of the Spider-Man 3 video game instruction booklet. The teaser stated that the game would be a \"A new twist on the legend. A new take on the movies.\" The game's website shows a few screenshots of the game and the Green Goblin makes an appearance. The game has a very different engine and style as compared to the previous official film tie-ins."@en ;
+        dbo:developer    dbr:Behaviour_Interactive ;
+        dbo:releaseDate  "1931-10-07"^^xsd:date ;
+        foaf:name        "Spider-Man: Friend or Foe"@en .
+
+dbr:Takeda_Nobuhiro_no_Super_League_Soccer
+        a                dbo:VideoGame ;
+        rdfs:comment     "Takeda Nobuhiro no Super League Soccer (武田修宏のスーパーリーグサッカー Nobuhiro Takeda's Suparigusakka, \"Nobuhiro Takeda's Super League Soccer\") is a soccer simulation video game licensed/endorsed by Takeda Nobuhiro, published by Jaleco Entertainment for the Super Famicom console, which was released exclusively in Japan in 1994."@en ;
+        dbo:developer    <http://dbpedia.org/resource/Tose_(company)> ;
+        dbo:releaseDate  "1994-11-25"^^xsd:date ;
+        foaf:name        "Takeda Nobuhiro no Super League Soccer"@en .
+
+dbr:Proper_Games  a            yago:WikicatVideoGameDevelopmentCompanies ;
+        rdfs:comment           "Proper Games is a British video game developer based in Dundee, Scotland. Established in 2006, it employs 15 developers including CEO Paddy Sinclair, CTO John Sinclair, and Chris Wright. The company specializes in downloadable games and content."@en ;
+        dbo:numberOfEmployees  "15"^^xsd:nonNegativeInteger ;
+        foaf:homepage          <http://www.proper-games.com> ;
+        foaf:name              "Proper Games Ltd"@en .
+
+dbr:Critter_Crunch  a    dbo:VideoGame ;
+        rdfs:comment     "Critter Crunch is a puzzle game in the vein of Magical Drop by Capybara Games for iOS and PlayStation 3 on the PlayStation Network. In Critter Crunch, players assume the role of Biggs, a friendly, furry forest dweller with an unending hunger for tasty critters. Using his long tongue, Biggs must set the food chain in motion by launching smaller critters into the waiting mouths of larger ones, clearing the screen and filling his belly."@en ;
+        dbo:developer    dbr:Capybara_Games ;
+        dbo:releaseDate  "2012-09-11"^^xsd:date ;
+        foaf:name        "Critter Crunch"@en .
+
+dbr:Way_of_the_Samurai_4
+        a                dbo:VideoGame ;
+        rdfs:comment     "Way of the Samurai 4 (侍道4 Samurai Dou 4) is a video game developed by Acquire and published by Spike for the PlayStation 3. It was first released in Japan on March 3, 2011. The game offers a mix of story, combat and event scenes."@en ;
+        dbo:developer    dbr:Chunsoft ;
+        dbo:releaseDate  "1921-08-11"^^xsd:date ;
+        foaf:name        "Way of the Samurai 4"@en .
+
+dbr:Sanzaru_Games  a           yago:WikicatVideoGameDevelopmentCompanies ;
+        rdfs:comment           "Sanzaru Games is an American video game development company founded in 2007 in California. Their first game was Ninja Reflex, released on March 1, 2008 for PC, Nintendo DS and Wii. Their second game was a port of the High Impact Games developed PlayStation Portable game Secret Agent Clank, released on May 26, 2009 for PlayStation 2. Their third game was a high definition remastered collection of the Sly Cooper games originally developed by Sucker Punch Productions for the PlayStation 2, titled The Sly Collection and released on November 9, 2010 for PlayStation 3. Their fourth game was Mystery Case Files: The Malgrave Incident, which they assisted in development with Big Fish Games on, was released on June 27, 2011 for Wii. Their fifth game is Sly Cooper: Thieves in Time, which was set to b"@en ;
+        dbo:numberOfEmployees  "60"^^xsd:nonNegativeInteger ;
+        foaf:homepage          <http://www.sanzaru.com/> ;
+        foaf:name              "Sanzaru Games"@en .
+
+dbr:Ruby_Blast  a        dbo:VideoGame ;
+        rdfs:comment     "Ruby Blast is a match 3 arcade game by Zynga. The game was first released in June 2012 on Facebook and Zynga.com and later re-branded to Ruby Blast Adventures after Zynga added a new mode with map progression. An iOS version of Ruby Blast was released in November 2012 with an Android version expected soon. In the game, players try to match three or more gems to activate power ups and dig deeper into a mine. Ruby Blast on iOS is the first arcade mobile game from Zynga and the latest Zynga game that enables players to carry progress from the Web version to mobile. Ruby Blast was closed on January 4, 2014."@en ;
+        dbo:developer    dbr:Zynga ;
+        dbo:releaseDate  "2012-06-19"^^xsd:date ;
+        foaf:name        "Ruby Blast"@en .
+
+<http://dbpedia.org/resource/Risen_(video_game)>
+        a                dbo:VideoGame ;
+        rdfs:comment     "Risen is a single-player fantasy-themed action role-playing game, developed by the German company Piranha Bytes and published by Deep Silver. The series is continued by Risen 2: Dark Waters and Risen 3: Titan Lords."@en ;
+        dbo:developer    dbr:Piranha_Bytes ;
+        dbo:releaseDate  "2009-10-02"^^xsd:date ;
+        foaf:name        "Risen"@en .
+
+dbr:Activision  a              yago:WikicatVideoGameDevelopmentCompanies ;
+        rdfs:comment           "Activision Publishing, Inc. is an American video game publisher. It was founded on October 1, 1979 and was the world's first independent developer and distributor of video games for gaming consoles. Its first products were cartridges for the Atari 2600 video console system published from July 1980 for the US market and from August 1981 for the international market (UK). Activision is now one of the largest third party video game publishers in the world and was also the top publisher for 2007 in the United States."@en ;
+        dbo:numberOfEmployees  "4000"^^xsd:nonNegativeInteger ;
+        foaf:homepage          <http://activision.com> ;
+        foaf:name              "Activision Publishing, Inc."@en .
+
+dbr:Polygon_Magic  a           yago:WikicatVideoGameDevelopmentCompanies ;
+        rdfs:comment           "Polygon Magic, Inc. (ポリゴンマジック株式会社 Porigon Majikku Kabushiki-Gaisha) is a Japanese video game developer.The company has been one of the largest studios in Japan. The company develops various platforms including arcade, Nintendo Wii, Nintendo DS, Nintendo 3DS, Facebook, Japanese SNS such as GREE and Mobage, and Pachinko (Japanese gambling).The company has been a top developer and publisher for Japanese mobile social game field. Polygon Magic has been helping GREE to develop their first party titles.The company has its own social game platform, Porimaji Games."@en ;
+        dbo:numberOfEmployees  "165"^^xsd:nonNegativeInteger ;
+        foaf:homepage          <http://www.polygonmagic.com/> ;
+        foaf:name              "Polygon Magic"@en .
+
+dbr:Toy_Story_3:_The_Video_Game
+        a                dbo:VideoGame ;
+        rdfs:comment     "Toy Story 3: The Video Game is a platform video game loosely based on the film Toy Story 3. It was published by Disney Interactive Studios (which is the developer for iOS) and developed by Avalanche Software (PS3, Wii, Xbox 360, PC, Mac OS X), Asobo Studio (PS2, PSP) and n-Space (DS). The game was released in North America on June 15, 2010, for the iOS, Nintendo DS, Wii, PlayStation Portable, PlayStation 3, Microsoft Windows, Mac OS X, and the Xbox 360. A special PlayStation 2 bundle with Toy Story 3: The Video Game was released on October 31, 2010, followed by the game's individual release on November 2, 2010. It is the only video game based on the Toy Story franchise to be released for the PlayStation 2 and Nintendo DS. It is also last video game based on a Disney and/or Pixar product on"@en ;
+        dbo:developer    dbr:Asobo_Studio ;
+        dbo:releaseDate  "2010-10-31"^^xsd:date ;
+        foaf:name        "Toy Story 3: The Video Game"@en .
+
+dbr:Ben_10:_Galactic_Racing
+        a                dbo:VideoGame ;
+        rdfs:comment     "Ben 10: Galactic Racing is a racing game in the Ben 10 game series, produced for PlayStation 3, Xbox 360, Nintendo DS, Wii, PlayStation Vita, and Nintendo 3DS. It was released in North America on October 18, 2011 and November 25, 2011 in Europe, for the PlayStation 3, Xbox 360, Nintendo DS and Nintendo 3DS. The PlayStation Vita port of Ben 10: Galactic Racing was released on February 22, 2012 in North America and March 16, 2012 in Europe. It is published by D3 Publisher and developed by Monkey Bar Games. Officially it was announced at Electronic Entertainment Expo 2011 on June 7, 2011. While players can enable Ben's alien forms in mid-race, other characters such as Kevin Levin can utilize their unique special abilities to affect the outcome of a race. All playable characters can pick up sp"@en ;
+        dbo:developer    dbr:Tantalus_Media ;
+        dbo:releaseDate  "1925-11-15"^^xsd:date ;
+        foaf:name        "Ben 10: Galactic Racing"@en .
+
+dbr:Paradigm_Entertainment
+        a                      yago:WikicatVideoGameDevelopmentCompanies ;
+        rdfs:comment           "Paradigm Entertainment (previously part of Paradigm Simulation) was an American video game development company. Paradigm is perhaps best known for its vehicle simulation games. Founded as a 3D computer graphics company in 1990, Paradigm primarily worked on realistic flight simulation technology for major space and aviation clients. The company got its start in game development when it was contacted by Nintendo in 1994 to aid in the creation of one of the Nintendo 64's launch titles, Pilotwings 64. The game was a critical and commercial success for the developer, causing the simulation and entertainment divisions of Paradigm to separate and focus on their respective products. The newly independent Paradigm Entertainment continued to develop for Nintendo's 64-bit console. After a short partn"@en ;
+        dbo:numberOfEmployees  "57"^^xsd:nonNegativeInteger ;
+        foaf:homepage          <http://web.archive.org/web/20060715162440/www.pe-i.com/index-2.html> ;
+        foaf:name              "Paradigm Entertainment"@en .
+
+dbr:Spectral_Force_3:_Innocent_Rage
+        a                dbo:VideoGame ;
+        rdfs:comment     "Spectral Force 3: Innocent Rage (スペクトラルフォース3 ～イノセント レイジ～) is a tactical role-playing game developed by Idea Factory for the Xbox 360. Innocent Rage, like the previous PlayStation 2 Spectral Force titles, takes place in the fantasy world of Neverland, and details the First Neverland War. It is the first entry in the series to be released in the Western Hemisphere, with Atlus securing publishing rights in North America, where the game is simply titled Spectral Force 3."@en ;
+        dbo:developer    dbr:Idea_Factory ;
+        dbo:releaseDate  "1929-07-06"^^xsd:date ;
+        foaf:name        "Spectral Force 3: Innocent Rage"@en .
+
+<http://dbpedia.org/resource/The_Maw_(video_game)>
+        a                dbo:VideoGame ;
+        rdfs:comment     "The Maw is a 2009 action-adventure video game developed by Twisted Pixel Games. Released for Xbox Live Arcade and Windows, the game centers on the extraterrestrial Frank and a purple, amorphous creature called The Maw, who have crash-landed their spacecraft on an alien planet. The player assumes the role of Frank and directs The Maw—which can take on the abilities of objects and fauna it consumes—via a leash."@en ;
+        dbo:developer    dbr:Twisted_Pixel_Games ;
+        dbo:releaseDate  "2009-03-09"^^xsd:date ;
+        foaf:name        "The Maw"@en .
+
+<http://dbpedia.org/resource/Homeland_(video_game)>
+        a                dbo:VideoGame ;
+        rdfs:comment     "Homeland (ホームランド hōmurando) is a role-playing video game for the Nintendo GameCube developed and published by Chunsoft, and was released in Japan on April 29, 2005. The game can be played offline in single-player mode or online in multiplayer mode over the internet or on a LAN. In online mode the player can assume the role of gamemaster and create an online game for up to thirty-five other players. It is one of only four titles for the GameCube designed for online play. It is unique among these games in a number of ways. It is the only one where the GameCube itself acts as the server, rather than the player using a central server. It is also the only online GameCube game that isn't a Phantasy Star Online title, and the only one not to get a release outside Japan. Images of the game can be "@en ;
+        dbo:developer    dbr:Chunsoft ;
+        dbo:releaseDate  "2005-04-29"^^xsd:date ;
+        foaf:name        "Homeland"@en .
+
+dbr:Time_Crisis:_Razing_Storm
+        a                dbo:VideoGame ;
+        rdfs:comment     "Time Crisis: Razing Storm, known in Japan as Big 3 Gun Shooting, is a compilation of light gun rail shooter video games by Namco for the PlayStation 3 home console. Featuring full compatibility with both the GunCon 3 light gun and the PlayStation Move motion control system, the compilation consists of ports of various arcade games. Developed by Nex Entertainment and published by Namco Bandai Games, the compilation was released in North America on October 19, 2010 and in Japan on October 21, 2010, which is the launch date of the PlayStation Move in Japan. It will also be released as part of a bundle with the PlayStation Move, PlayStation Eye and the Shooting attachment for the PlayStation Move in Japan and other Asian countries such as Singapore."@en ;
+        dbo:developer    dbr:Nex_Entertainment ;
+        dbo:releaseDate  "2019-10-10"^^xsd:date ;
+        foaf:name        "Time Crisis: Razing Storm"@en .
+
+dbr:Capybara_Games  a          yago:WikicatVideoGameDevelopmentCompanies ;
+        rdfs:comment           "Capybara Games is an independent game studio based out of Toronto, Canada. It focuses on the development of iPhone, Nintendo DS, and downloadable console games. The studio was founded in 2003 from a collection of Toronto IGDA members. Capybara's mascot is a mustachioed man named Hank Hudson, who can be found in most of their games."@en ;
+        dbo:numberOfEmployees  "22"^^xsd:nonNegativeInteger ;
+        foaf:homepage          <http://www.capybaragames.com> ;
+        foaf:name              "Capybara Games"@en .
+
+dbr:Dr._Mario_Express
+        a                dbo:VideoGame ;
+        rdfs:comment     "Dr. Mario Express, known in Japan and PAL regions as A Little Bit of... Dr. Mario (ちょっとDr. MARIO Chotto Dr. Mario), is a Mario action puzzle video game published by Nintendo. The game was released exclusively as a DSiWare title for the Nintendo DSi platform. Dr. Mario Express was first released as a launch title for the DSiWare service in Japan on December 24, 2008, and was released in both North America and PAL regions in 2009. The game was developed by Arika, which had also created Dr. Mario Online Rx for WiiWare."@en ;
+        dbo:developer    dbr:Arika ;
+        dbo:releaseDate  "2020-04-08"^^xsd:date ;
+        foaf:name        "Dr. Mario Express"@en .
+
+<http://dbpedia.org/resource/Banshee's_Last_Cry>
+        a                dbo:VideoGame ;
+        rdfs:comment     "Banshee's Last Cry (かまいたちの夜 Kamaitachi no Yoru, lit. \"The Night of the Sickle Weasel\") is a visual novel video game developed and published by Chunsoft (later Spike Chunsoft). The game was first released in Japan for the Super Famicom on November 25, 1994, and has since been ported to PlayStation, Game Boy Advance, PC, and mobile phones. An English localized version (including changes to the setting and character names) of the game was translated by Jeremy Blaustein and released by Aksys Games on January 24, 2014 for iOS, with a release on Android devices to follow. The story-line was written by Takemaru Abiko and production was directed by Kazuya Asano and Kōichi Nakamura."@en ;
+        dbo:developer    dbr:Chunsoft ;
+        dbo:releaseDate  "1994-11-25"^^xsd:date ;
+        foaf:name        "Banshee's Last Cry"@en .
+
+dbr:Star_Trek:_Armada
+        a                dbo:VideoGame ;
+        rdfs:comment     "Star Trek: Armada is a real-time strategy game published in 2000 by Activision. The game's look and feel is based primarily on Star Trek: The Next Generation, and features a few of its main characters and ships. Playable factions include the United Federation of Planets, the Klingon Empire, the Romulan Star Empire and the Borg. The game received mixed to positive reviews and was noted for being one of the better Star Trek games to be made. A sequel, Star Trek: Armada II, was released on November 16, 2001."@en ;
+        dbo:developer    dbr:Activision ;
+        dbo:releaseDate  "2000-02-29"^^xsd:date ;
+        foaf:name        "Star Trek: Armada"@en .
+
+dbr:Gothic_3  a          dbo:VideoGame ;
+        rdfs:comment     "Gothic 3 is a fantasy-themed open world action role-playing game for Windows PC from the German game developer Piranha Bytes. It is the sequel to Gothic II. Although widely available in English, the native release of the game is German. The game was released throughout the European Union on October 13, 2006 and became available throughout North America starting November 20, 2006. The North American release incorporates two patches that appeared after the initial UK edition."@en ;
+        dbo:developer    dbr:Piranha_Bytes ;
+        dbo:releaseDate  "2020-11-06"^^xsd:date ;
+        foaf:name        "Gothic 3"@en .
+
+<http://dbpedia.org/resource/Omerta_–_City_of_Gangsters>
+        a                dbo:VideoGame ;
+        rdfs:comment     "Omerta – City of Gangsters is a simulation game with turn-based tactical game-play elements developed by Haemimont Games and published by Kalypso Media for Microsoft Windows, Mac OS X and the Xbox 360. The game was released in German-speaking countries on 31 January 2013. The international German download version for Windows was released through the Steam-service as well. The English version was released just a day after in the rest of Europe whereas the version for the US market was released on 12 February. A version for Mac OS X was published on 2 August 2013."@en ;
+        dbo:developer    dbr:Haemimont_Games ;
+        dbo:releaseDate  "2013-08-02"^^xsd:date ;
+        foaf:name        "Omerta – City of Gangsters"@en .
+
+dbr:Generation_of_Chaos
+        a                dbo:VideoGame ;
+        rdfs:comment     "Generation of Chaos, released in Japan as New Demon World: GOCIV Another Side (新天魔界 ～ＧＯＣIV アナザサイド～ Shin Tenmakai ~GOCIV Anaza Saido~) is a turn-based strategy RPG fantasy video game released for the PlayStation Portable, developed by Idea Factory and published in the U.S. by NIS America. NIS America released the game in the U.S. on February 28, 2006. An Android port of the title, developed by HyperDevbox Game Studio, was released on Q4 2011."@en ;
+        dbo:developer    dbr:Idea_Factory ;
+        dbo:releaseDate  "1928-02-05"^^xsd:date ;
+        foaf:name        "Generation of Chaos"@en .
+
+dbr:Tropico_3  a         dbo:VideoGame ;
+        rdfs:comment     "Tropico 3 is a video game developed by Haemimont Games and published by Kalypso Media. Like the previous games in the series, Tropico 3 is a construction and management simulation game (as well as a political simulation game) with heavy emphasis on city building. As a sequel to Tropico, the game attempts to return to the roots of the series, which puts the player into the shoes of \"El Presidente\" – a dictator governing over an island banana republic. The Mac OS X version of the game was released on January 26, 2012, by Feral Interactive."@en ;
+        dbo:developer    dbr:Haemimont_Games ;
+        dbo:releaseDate  "2016-02-09"^^xsd:date ;
+        foaf:name        "Tropico 3"@en .
+
+<http://dbpedia.org/resource/Guild_(series)>
+        a                dbo:VideoGame ;
+        rdfs:comment     "The Guild series (ギルドシリーズ Girudo Shirīzu) is a compilation of video games produced by Level-5 for the Nintendo 3DS in cooperation with various game designers. The first compilation, Guild01 (ギルド01 Girudo Zero Wan), consists of four games and was released at retail in Japan on May 31, 2012. Three of the titles have been announced for individual release on the Nintendo eShop in Western territories during Fall 2012. All four of them were released individually on the Japanese eShop not long after. A second compilation, Guild02 (ギルド02 Girudo Zero Tsū), which features three games designed by Keiji Inafune, Kazuya Asano, Takemaru Abiko and Kaz Ayabe, was released on the Nintendo eShop in Japan during March 2013 and began releasing in Western territories in May 2013."@en ;
+        dbo:developer    dbr:Nex_Entertainment ;
+        dbo:releaseDate  "2013-03-07"^^xsd:date ;
+        foaf:name        "Guild"@en .
+
+<http://dbpedia.org/resource/Iron_Man_(video_game)>
+        a                dbo:VideoGame ;
+        rdfs:comment     "Iron Man is a 2008 video game based on the film of the same name as well as the classic iterations of the character. It was released on May 2, 2008 to coincide with the release of the film in cinemas. The game is published by Sega, and was released on PlayStation 3, Xbox 360 (developed by Secret Level), PlayStation 2, PlayStation Portable, Nintendo DS, Wii, Microsoft Windows (developed by Artificial Mind and Movement) and Mobile platforms. A significant feature has Robert Downey, Jr., Terrence Howard and Shaun Toub reprising their roles from the film."@en ;
+        dbo:developer    dbr:Behaviour_Interactive ;
+        dbo:releaseDate  "2008-05-02"^^xsd:date ;
+        foaf:name        "Iron Man"@en .
+
+dbr:Back_at_the_Barnyard:_Slop_Bucket_Games
+        a                dbo:VideoGame ;
+        rdfs:comment     "Back at the Barnyard: Slop Bucket Games (released PAL regions under the name Back at the Barnyard: Cowlympics) is an action video game released by THQ in 2008 for the Nintendo DS. The game is based on the Nickelodeon cartoon Back at the Barnyard. It received generally negative reviews from critics, receiving a 43.86% from GameRankings."@en ;
+        dbo:developer    dbr:Firemonkeys_Studios ;
+        dbo:releaseDate  "1923-10-08"^^xsd:date ;
+        foaf:name        "Slop Bucket Games"@en .
+
+<http://dbpedia.org/resource/Virtual_Heroes,_Inc.>
+        a                      yago:WikicatVideoGameDevelopmentCompanies ;
+        rdfs:comment           "Virtual Heroes, Inc. is a serious game developer in Raleigh, North Carolina, United States. It was founded in 2004. Virtual Heroes' initial projects focused on creating new technology and content for the U.S. Army game America's Army. The company has expanded to develop serious games, 3D computer simulations, and training applications for military, commercial, and medical customers. They also license the Unreal Engine in the government space through the Unreal Government Network."@en ;
+        dbo:numberOfEmployees  "40"^^xsd:nonNegativeInteger ;
+        foaf:homepage          <http://www.virtualheroes.com/> ;
+        foaf:name              "Virtual Heroes, Inc."@en .
+
+dbr:Introversion_Software
+        a                      yago:WikicatVideoGameDevelopmentCompanies ;
+        rdfs:comment           "Introversion Software is a British video game developer based in Walton-on-Thames."@en ;
+        dbo:numberOfEmployees  "10"^^xsd:nonNegativeInteger ;
+        foaf:homepage          <http://www.introversion.co.uk/> ;
+        foaf:name              "Introversion Software Ltd."@en .
+
+dbr:Tapulous  a                yago:WikicatVideoGameDevelopmentCompanies ;
+        rdfs:comment           "Tapulous, Inc. was an American software and video game developer and publisher headquartered in Palo Alto, California. It was a wholly owned subsidiary of The Walt Disney Company as part of Disney Interactive's Disney Mobile unit. The company's most profitable products were the Tap Tap series of music games, which surpassed thirty-five million downloads."@en ;
+        dbo:numberOfEmployees  "20"^^xsd:nonNegativeInteger ;
+        foaf:homepage          <http://tapulous.com> ;
+        foaf:name              "Tapulous, Inc."@en .
+
+<http://dbpedia.org/resource/Brave_(video_game)>
+        a                dbo:VideoGame ;
+        rdfs:comment     "Brave is an adventure game adaptation based on the film of the same name developed by Behaviour Interactive and published by Disney Interactive Studios. Actress Kelly Macdonald, who voiced Mérida in the film, reprised her role for the video game. This game was originally going to be published by THQ, but was published by Disney Interactive Studios instead."@en ;
+        dbo:developer    dbr:Behaviour_Interactive ;
+        dbo:releaseDate  "2012-06-19"^^xsd:date ;
+        foaf:name        "Brave"@en .
+
+dbr:We_Ski  a            dbo:VideoGame ;
+        rdfs:comment     "We Ski, also known as Family Ski in Japan and Europe, is a video game for the Wii developed and published by Bandai Namco Entertainment. It is the first third-party game (and second game behind Wii Fit) released that makes use of the Wii Balance Board. A sequel, We Ski & Snowboard, which adds snowboarding to the game, was released in Japan on November 13, 2008. In September 2015 new Generic top-level domain \"dot ski\" was launched, with the official partner forum being We.Ski, which is unrelated to the video game."@en ;
+        dbo:developer    dbr:Bandai_Namco_Entertainment ;
+        dbo:releaseDate  "2013-05-08"^^xsd:date ;
+        foaf:name        "We Ski"@en .
+
+dbr:Piranha_Games  a           yago:WikicatVideoGameDevelopmentCompanies ;
+        rdfs:comment           "Piranha Games Inc. is a Canadian video game developer based in Vancouver, British Columbia. The company was founded by two members Russ Bullock, President and Executive Producer and Bryan Ekman, VP and Creative Director. Piranha Games is one of the oldest independent game developers in the Vancouver area and currently housed in the International Village Mall in the Chinatown area."@en ;
+        dbo:numberOfEmployees  "65"^^xsd:nonNegativeInteger ;
+        foaf:homepage          <http://www.piranha-games.com/> ;
+        foaf:name              "Piranha Games Inc."@en .
+
+dbr:Eidos_Montreal  a          yago:WikicatVideoGameDevelopmentCompanies ;
+        rdfs:comment           "Eidos Montreal is a Canadian video game development studio owned by Square Enix Europe, a subsidiary of Square Enix. The studio was founded by Eidos Interactive in 2007 with Stéphane D'Astous appointed studio manager. According to D'Astous, unlike other video game development studios, Eidos Montreal's development cycle is characterized by smaller teams (totaling 350 ) working over a longer period. The same year as its founding, the studio announced its first project: the third installment of the Deus Ex series, Deus Ex: Human Revolution, which was released in 2011. In 2009, the studio announced its second project, the fourth installment of the Thief series. On 4 March 2014, Square Enix announced that 27 employees were laid off from Eidos Montreal."@en ;
+        dbo:numberOfEmployees  "500"^^xsd:nonNegativeInteger ;
+        foaf:homepage          <http://www.eidosmontreal.com/> ;
+        foaf:name              "Eidos Montreal"@en .
+
+dbr:Bazooka_Blitzkrieg
+        a                dbo:VideoGame ;
+        rdfs:comment     "Bazooka Blitzkrieg (Destructive in Japan) is a video game software released for the Super NES which makes use of the Super Scope light gun. It was developed by Tose and released in 1992 by Bandai. Bazooka Blitzkrieg is rail-shooter - the screen slowly moved from left to right, player only fires his weapon at the different robots to destroy them."@en ;
+        dbo:developer    <http://dbpedia.org/resource/Tose_(company)> ;
+        dbo:releaseDate  "1993-08-27"^^xsd:date ;
+        foaf:name        "Bazooka Blitzkrieg"@en .
+
+dbr:Nex_Entertainment
+        a                      yago:WikicatVideoGameDevelopmentCompanies ;
+        rdfs:comment           "Nex Entertainment (ネクスエンタテインメント Nekusu Entateinmento), formerly known as GAU Entertainment and Nextech (ネクステック Nekusutekku), is a Japanese developer of video games. The company usually does not market or publish the games it develops, instead they primarily develop games for other companies on a contract basis. Their clients include Sega, Capcom, Namco, Takara, Taito, Atlus, and Square Enix."@en ;
+        dbo:numberOfEmployees  "175"^^xsd:nonNegativeInteger ;
+        foaf:homepage          <http://www.nex-ent.co.jp/index.html> ;
+        foaf:name              "Nex Entertainment"@en .
+
+<http://dbpedia.org/resource/Train_Simulator_(Dovetail_Games)>
+        a                dbo:VideoGame ;
+        rdfs:comment     "Train Simulator (originally RailWorks) is a train simulation game developed by Dovetail Games, formerly known as RailSimulator.com. It is the official successor to Rail Simulator, and was released online on 12 June 2009 and in stores on 3 July 2009."@en ;
+        dbo:developer    dbr:Dovetail_Games ;
+        dbo:releaseDate  "2009-06-12"^^xsd:date ;
+        foaf:name        "Train Simulator"@en .
+
+dbr:Octomania  a         dbo:VideoGame ;
+        rdfs:comment     "Octomania (Noumiso Konekone Puzzle Takoron also Sharuui * Takoron in Japan) is a puzzle game by Compile Heart and Idea Factory for the Wii. It is an enhanced version of an arcade title released in 2006 running on Sega NAOMI hardware. Hyper-Devbox Japan helped port the game to the Wii by creating libraries so that the programmers could easily just recompile the source code of the arcade game, and then add new features. The game was published in North America by Conspiracy Entertainment. The game was supervised by Puyo Puyo creator Moo Niitani."@en ;
+        dbo:developer    dbr:Idea_Factory ;
+        dbo:releaseDate  "1925-03-07"^^xsd:date ;
+        foaf:name        "Octomania"@en .
+
+dbr:Sobee  a                   yago:WikicatVideoGameDevelopmentCompanies ;
+        rdfs:comment           "Sobee (formerly Dinc Interactive) is a game development company founded by Mevlüt Dinç in 2000. Sobee's main headquarters are in İstanbul, Turkey. The firm was purchased by Türk Telekom in 2009."@en ;
+        dbo:numberOfEmployees  "20"^^xsd:nonNegativeInteger ;
+        foaf:homepage          <http://www.sobee.com.tr> ;
+        foaf:name              "Sobee Studios"@en .
+
+dbr:CivCity:_Rome  a     dbo:VideoGame ;
+        rdfs:comment     "CivCity: Rome is a city building strategy game by Firefly Studios and Firaxis Games. It includes elements from two game series, Caesar and Civilization. The player manages various cities of the Roman Empire by strategic placement of buildings. Making sure that each neighborhood has access to all the commodities it needs is the primary challenge."@en ;
+        dbo:developer    dbr:Firefly_Studios ;
+        dbo:releaseDate  "1928-07-06"^^xsd:date ;
+        foaf:name        "CivCity: Rome"@en .
+
+dbr:Stronghold_3  a      dbo:VideoGame ;
+        rdfs:comment     "Stronghold 3 is a 2011 real-time strategy video game for Microsoft Windows developed by Firefly Studios and published by SouthPeak Games. The game is the seventh in the series after several spin-offs, including a remake, Stronghold: Crusader Extreme, and Stronghold Kingdoms. It is the sequel to Stronghold, released in 2001, and Stronghold 2 released in 2005. Unlike previous games in the series which were published by Take-Two Interactive, the game has been published by SouthPeak Games, the new parent company of Gamecock Media Group, publisher of Stronghold Crusader Extreme."@en ;
+        dbo:developer    dbr:Firefly_Studios ;
+        dbo:releaseDate  "2011-10-25"^^xsd:date ;
+        foaf:name        "Stronghold 3"@en .
+
+<http://dbpedia.org/resource/Yoshi's_Woolly_World>
+        a                dbo:VideoGame ;
+        rdfs:comment     "Yoshi's Woolly World, known in Japan as Yoshi Wool World (Japanese: ヨッシーウールワールド Hepburn: Yosshī Ūru Wārudo), is a 2015 side-scrolling platformer video game developed by Good-Feel and published by Nintendo for the Wii U. The game is the seventh main entry in the Yoshi series of games, and the first home console title in the series since 1997's Yoshi's Story. The game was released in Europe and Australia in June 2015, in Japan in July 2015, and in North America in October 2015. A port for the Nintendo 3DS, known as Poochy & Yoshi's Woolly World (Japanese: ポチと! ヨッシー ウールワールド Hepburn: Pochi to! Yosshī Ūru Wārudo, Poochy and! Yoshi Wool World), will be released in early 2017."@en ;
+        dbo:developer    dbr:Good-Feel ;
+        dbo:releaseDate  "2015-06-25"^^xsd:date ;
+        foaf:name        "Yoshi's Woolly World"@en .
+
+dbr:Half-Minute_Hero  a  dbo:VideoGame ;
+        rdfs:comment     "Half-Minute Hero (勇者３０ Yūsha Sanjū, lit. \"Hero 30\") is a hybrid real-time strategy/action RPG/shoot 'em up developed by Marvelous Entertainment. It was initially released as a PlayStation Portable exclusive in Japan on May 28, 2009, in North America on October 13, 2009 and in Europe on February 19, 2010. It was re-released on the Xbox Live Arcade on June 29, 2011 under the title Half-Minute Hero: Super Mega Neo Climax."@en ;
+        dbo:developer    dbr:Marvelous_Entertainment ;
+        dbo:releaseDate  "2013-10-09"^^xsd:date ;
+        foaf:name        "Half-Minute Hero"@en .
+
+<http://dbpedia.org/resource/Gon_(video_game)>
+        a                dbo:VideoGame ;
+        rdfs:comment     "Gon (ゴン) is a Japan-exclusive side-scrolling action video game with platforming elements for the Super Famicom published by Bandai. The game is an adaptation of the manga series Gon by Masashi Tanaka, about the daily life of a super-deformed orange carnosaur named Gon."@en ;
+        dbo:developer    <http://dbpedia.org/resource/Tose_(company)> ;
+        dbo:releaseDate  "1994-11-11"^^xsd:date ;
+        foaf:name        "Gon"@en .
+
+dbr:Streamline_Studios
+        a                      yago:WikicatVideoGameDevelopmentCompanies ;
+        rdfs:comment           "Streamline Studios has been providing digital content outsourcing services for AAA and mobile titles for 15 years. Streamline Studios are based in Kuala Lumpur, Malaysia and have worked on franchises including Street Fighter V, Bioshock and Gears of War."@en ;
+        dbo:numberOfEmployees  "100"^^xsd:nonNegativeInteger ;
+        foaf:homepage          <http://www.streamline-studios.com> ;
+        foaf:name              "Streamline Studios"@en .
+
+dbr:Twisted_Pixel_Games
+        a                      yago:WikicatVideoGameDevelopmentCompanies ;
+        rdfs:comment           "Twisted Pixel Games is a video game developer based in Austin, Texas. Originally a contractor, Twisted Pixel now releases games based on their own intellectual properties such as The Maw and 'Splosion Man. The company uses their own proprietary engine, known as BEARD, to power their games. On October 12, 2011, it was announced that Twisted Pixel had become part of Microsoft Studios. However, Twisted Pixel was separated from Microsoft and become an independent company again starting from September 30, 2015."@en ;
+        dbo:numberOfEmployees  "25"^^xsd:nonNegativeInteger ;
+        foaf:homepage          <http://www.twistedpixelgames.com/> ;
+        foaf:name              "Twisted Pixel Games"@en .
+
+dbr:Good-Feel  a               yago:WikicatVideoGameDevelopmentCompanies ;
+        rdfs:comment           "Good-Feel Co., Ltd. (株式会社グッド・フィール Kabushiki-Gaisha Guddo Fīru) is a Japanese video game developer. Good-Feel began in Hyogo, Japan in 2005 and soon opened a production facility in Tokyo. Their main focus has been educational games for the Nintendo DS, which have solely been released in Japan. The games, the first of which was released in 2007, consist of primers for very small children (kindergarten and below) and English language training for kids and adults."@en ;
+        dbo:numberOfEmployees  "93"^^xsd:nonNegativeInteger ;
+        foaf:homepage          <http://www.good-feel.co.jp> , <http://www.good-feel.co.jp/> ;
+        foaf:name              "Good-Feel Co., Ltd."@en .
+
+dbr:Dovetail_Games  a          yago:WikicatVideoGameDevelopmentCompanies ;
+        rdfs:comment           "Dovetail Games (DTG), a trading name of RailSimulator.com Ltd (RSC), is a British video game developer and publisher. It was formed in 2008 by Paul Jackson (formerly VP at Electronic Arts and Director General of ELSPA, now UKIE), Tim Gatland and Charlie McMicking. It originally produced the RailWorks franchise, now called simply Train Simulator. Developed for the PC, Train Simulator is available both as a boxed product from video game retailers and as a download via Valve's Steam platform."@en ;
+        dbo:numberOfEmployees  "100"^^xsd:nonNegativeInteger ;
+        foaf:homepage          <http://www.dovetailgames.com/> ;
+        foaf:name              "Dovetail Games"@en .
+
+<http://dbpedia.org/resource/Moonbase_Alpha_(video_game)>
+        a                dbo:VideoGame ;
+        rdfs:comment     "Moonbase Alpha is a video game that provides a realistic simulation of life on a natural satellite based on potential moon base programs. It was made by the Army Game Studio, developers of America's Army, and Virtual Heroes, Inc. in conjunction with NASA Learning Technologies. The game was released on July 6, 2010, as a free download on Steam. At the Interservice/Industry Training, Simulation and Education Conference in 2010, the games won the top honors in the government category of the Serious Game Showcase & Challenge."@en ;
+        dbo:developer    <http://dbpedia.org/resource/Virtual_Heroes,_Inc.> ;
+        dbo:releaseDate  "2010-07-06"^^xsd:date ;
+        foaf:name        "Moonbase Alpha"@en .
+
+dbr:Radon_Labs  a              yago:WikicatVideoGameDevelopmentCompanies ;
+        rdfs:comment           "Radon Labs was a video game developer based in Germany.The company was founded in 2000 as a spin-off of the company Terratools.Radon Labs has its headquarters in Berlin and a second development studio in Halle-Leipzig. The company filed for bankruptcy in May 2010 and was bought by the browsergames publisher Bigpoint GmbH."@en ;
+        dbo:numberOfEmployees  "100"^^xsd:nonNegativeInteger ;
+        foaf:homepage          <http://web.archive.org/web/*/http:/www.radonlabs.de/> , <http://web.archive.org/web/*/http://www.radonlabs.de/> ;
+        foaf:name              "Radon Labs"@en .
+
+dbr:Pocket_God  a        dbo:VideoGame ;
+        rdfs:comment     "Pocket God is a game developed by Bolt Creative, in which the player manipulates an island and its inhabitants. It was originally released for the iPad, iPhone, and iPod Touch on January 9, 2009, and later released for Verizon Wireless on September 1, 2010, Android on December 1, 2010, and Windows Phone on December 4, 2010. The Facebook version was released December 23, 2010."@en ;
+        dbo:developer    dbr:Bolt_Creative ;
+        dbo:releaseDate  "2010-09-01"^^xsd:date ;
+        foaf:name        "Pocket God"@en .
+
+dbr:Time_Crisis_3  a     dbo:VideoGame ;
+        rdfs:comment     "Time Crisis 3 is the third installment of the Time Crisis arcade series. Like its previous predecessor, Time Crisis II, it allows for two players to cooperate in a link play environment and has the Time Crisis signature pedal system for hiding and advancing and the first in the series to change or select weapons. It was later ported to the PlayStation 2."@en ;
+        dbo:developer    dbr:Nex_Entertainment ;
+        dbo:releaseDate  "1931-10-03"^^xsd:date ;
+        foaf:name        "Time Crisis 3"@en .
+
+dbr:Terminator_3:_The_Redemption
+        a                dbo:VideoGame ;
+        rdfs:comment     "Terminator 3: The Redemption is a video game based on the Terminator series, more specifically the film Terminator 3: Rise of the Machines. It was developed by Paradigm Entertainment and published by Atari in 2004 for the PlayStation 2, Xbox, and GameCube."@en ;
+        dbo:developer    dbr:Paradigm_Entertainment ;
+        dbo:releaseDate  "1924-09-04"^^xsd:date ;
+        foaf:name        "Terminator 3: The Redemption"@en .
+
+dbr:Nude_Maker  a              yago:WikicatVideoGameDevelopmentCompanies ;
+        rdfs:comment           "Nude Maker (ヌードメーカー Nūdomēkā) is a Japanese video game developer based in Tokyo, Japan. The company is composed mostly of ex-Human Entertainment members, including Hifumi Kono, who directed the first two titles in the Clock Tower series of horror games. Nude Maker has been contracted by companies including Capcom, ELF Corporation, Grasshopper Manufacture, and Sega."@en ;
+        dbo:numberOfEmployees  "10"^^xsd:nonNegativeInteger ;
+        foaf:homepage          <http://www.nudemaker.jp/> ;
+        foaf:name              "Nude Maker"@en .
+
+<http://dbpedia.org/resource/Trinity_Universe_(video_game)>
+        a                dbo:VideoGame ;
+        rdfs:comment     "Trinity Universe (トリニティ・ユニバース) is a 2009 console role-playing game, co-developed by Nippon Ichi Software, Idea Factory and Gust Corporation exclusively for the PlayStation 3. The game is published by Idea Factory in Japan and NIS America in North America and Europe and was released in Japan on October 1, 2009 and in North America and Europe in June 2010. The game features characters from the Atelier and Disgaea series from Gust Corporation and Nippon Ichi Software respectively, with fully 3D character models for the first time."@en ;
+        dbo:developer    dbr:Idea_Factory ;
+        dbo:releaseDate  "1925-06-09"^^xsd:date ;
+        foaf:name        "Trinity Universe"@en .
+
+<http://dbpedia.org/resource/Prototype_(video_game)>
+        a                dbo:VideoGame ;
+        rdfs:comment     "Prototype (stylized as [PROTOTYPE]) is a 2009 open world action-adventure video game developed by Radical Entertainment and published by Activision. The game was released in North America on June 9, 2009, and in southwestern parts of North America as well as Oceania on June 10, and was released in Europe on June 12. Versions for PlayStation 4 and Xbox One were released on July 14, 2015 alongside the sequel as Prototype Biohazard Bundle. Separate versions of the games became available on August 12, 2015."@en ;
+        dbo:developer    dbr:Fun_Labs ;
+        dbo:releaseDate  "2009-06-09"^^xsd:date ;
+        foaf:name        "Prototype"@en .
+
+dbr:Drakensang:_The_Dark_Eye
+        a                dbo:VideoGame ;
+        rdfs:comment     "Drakensang: The Dark Eye (German title: Das Schwarze Auge: Drakensang) is a 2008 role-playing video game developed by Radon Labs and published by dtp. It is the first video game in The Dark Eye universe since Attic's Northlands Trilogy (Realms of Arkania: Blade of Destiny, Realms of Arkania: Star Trail and Realms of Arkania: Shadows over Riva) from the 1990s."@en ;
+        dbo:developer    dbr:Radon_Labs ;
+        dbo:releaseDate  "2008-08-01"^^xsd:date ;
+        foaf:name        "Drakensang: The Dark Eye"@en .
+
+dbr:Venan_Entertainment
+        a                      yago:WikicatVideoGameDevelopmentCompanies ;
+        rdfs:comment           "Venan Entertainment, Inc. is a mobile and handheld game development studio based in Middletown, Connecticut. Founded in 2002, Venan began primarily as a Java/Brew-based mobile phone game developer, but has since branched off to develop games for Nintendo DS, iPod, and iPhone OS. Venan's most recent titles include their fifth fully independent, self-published title Book of Heroes, and the TouchArcade and EGM Game of the Year Space Miner: Space Ore Bust,. Both are available for the iOS devices. Other recent Venan-developed titles include Ninjatown for the Nintendo DS, Monopoly Worldwide and Monopoly Classic for the iPhone and iPod Touch, and NBA Live for the iPhone and iPod Touch."@en ;
+        dbo:numberOfEmployees  "19"^^xsd:nonNegativeInteger ;
+        foaf:homepage          <http://www.venan.com/> ;
+        foaf:name              "Venan Entertainment, Inc."@en .
+
+<http://dbpedia.org/resource/Might_&_Magic:_Clash_of_Heroes>
+        a                dbo:VideoGame ;
+        rdfs:comment     "Might & Magic: Clash of Heroes is a puzzle role-playing adventure video game in the Might and Magic franchise, developed for the Nintendo DS by Capybara Games and published by Ubisoft Entertainment. It was first announced in May 2009, and released on December 1, 2009. In 2011, a downloadable high definition version was developed for the PlayStation 3, Xbox 360 and Microsoft Windows. Android and iOS ports were developed in 2013."@en ;
+        dbo:developer    dbr:Capybara_Games ;
+        dbo:releaseDate  "2011-09-22"^^xsd:date ;
+        foaf:name        "Might & Magic: Clash of Heroes"@en .
+
+dbr:Riot_Games  a              yago:WikicatVideoGameDevelopmentCompanies ;
+        rdfs:comment           "Riot Games is an American video game developer, publisher, and eSports tournament organizer established in 2006. Their main office is based in West Los Angeles, California. They currently have additional offices located in Berlin, Brighton, Dublin, Hong Kong, Istanbul, Mexico City, Moscow, New York City, St. Louis, Santiago, São Paulo, Seoul, Shanghai, Singapore, Sydney, Taipei, and Tokyo."@en ;
+        dbo:numberOfEmployees  "1000"^^xsd:nonNegativeInteger ;
+        foaf:homepage          <http://www.riotgames.com/> ;
+        foaf:name              "Riot Games, Inc."@en .
+
+dbr:Grezzo  a                  yago:WikicatVideoGameDevelopmentCompanies ;
+        rdfs:comment           "Grezzo (Japanese: 株式会社グレッゾ Hepburn: Kabushiki Gaisha Gurezzo) is a Japanese video game developer. It was founded in December 2006. Koichi Ishii, known for his work on the Mana series of games by Square Enix, was hired as CEO and president of the company in April 2007."@en ;
+        dbo:numberOfEmployees  "57"^^xsd:nonNegativeInteger ;
+        foaf:homepage          <http://www.grezzo.co.jp/en/> ;
+        foaf:name              "Grezzo"@en .
+
+dbr:1st_Playable_Productions
+        a                      yago:WikicatVideoGameDevelopmentCompanies ;
+        rdfs:comment           "1st Playable Productions is a game development studio with a focus on handheld games for kids. It was started around 2005 by former members of Vicarious Visions, when it was purchased by Activision."@en ;
+        dbo:numberOfEmployees  "11"^^xsd:nonNegativeInteger ;
+        foaf:homepage          <http://www.1stplayable.com/> ;
+        foaf:name              "1st Playable Productions, LLC"@en .
+
+<http://dbpedia.org/resource/Suzak_Inc.>
+        a                      yago:WikicatVideoGameDevelopmentCompanies ;
+        rdfs:comment           "Suzak Inc. (株式会社朱雀 Kabushiki-gaisha Suzaku) was a video game development company based in Japan. Suzak has worked with Nintendo to create games based on their intellectual property, such as Wario: Master of Disguise and F-Zero: Climax. They have created numerous games for the PlayStation 2, Game Boy Advance, and Nintendo DS. On August 17, 2012, they filed for bankruptcy. The approximate amount of debt as of the time of filing was 700 million yen."@en ;
+        dbo:numberOfEmployees  "39"^^xsd:nonNegativeInteger ;
+        foaf:homepage          <http://www.suzak.co.jp> ;
+        foaf:name              "Suzak Inc."@en .
+
+dbr:Natsuki_Crisis_Battle
+        a                dbo:VideoGame ;
+        rdfs:comment     "Natsuki Crisis Battle (なつきクライシスバトル) is a 1995 video game that was released exclusively for the Japanese Super Famicom.The player must choose between eight humanoid characters. Fights take place in a Japanese gym, outside the high school, and in other locations. There is a lot of heavy dialogue in the game and the animation is in anime/manga style. In fact, the video game itself is based on the two-episode OVA and manga Natsuki Crisis which was serialized in the magazine Business Jump."@en ;
+        dbo:developer    <http://dbpedia.org/resource/Tose_(company)> ;
+        dbo:releaseDate  "1995-04-21"^^xsd:date ;
+        foaf:name        "Natsuki Crisis Battle"@en .
+
+dbr:Kurohyō:_Ryū_ga_Gotoku_Shinshō
+        a                dbo:VideoGame ;
+        rdfs:comment     "Kurohyō: Ryū ga Gotoku Shinshō (Japanese: クロヒョウ　龍が如く新章, lit. \"Black Panther: Like a Dragon New Chapter\"), codenamed \"Project K\", is a 2010 video game developed by Syn Sophia (formerly AKI Corporation) and released by Sega for the PlayStation Portable. The game was introduced on April 21, 2010 by Famitsu and is a spin-off from Sega's Yakuza series. An adaptation of the game was televised from October 5 to December 21, 2010 on Tokyo Broadcasting System."@en ;
+        dbo:developer    dbr:Syn_Sophia ;
+        dbo:releaseDate  "2010-09-22"^^xsd:date ;
+        foaf:name        "Kurohyōu: Ryū ga Gotoku Shinshō"@en .
+
+dbr:Famicom_Jump:_Hero_Retsuden
+        a                dbo:VideoGame ;
+        rdfs:comment     "Famicom Jump: Hero Retsuden (ファミコンジャンプ 英雄列伝 Famikon Janpu Hīrō Retsuden, the subtitle translates to \"History of Heroes\") is a 1989 role-playing video game for the Family Computer published by Bandai. The game commemorates the 20th anniversary of Shueisha's manga anthology Weekly Shōnen Jump."@en ;
+        dbo:developer    <http://dbpedia.org/resource/Tose_(company)> ;
+        dbo:releaseDate  "1989-02-15"^^xsd:date ;
+        foaf:name        "Famicom Jump: Hero Retsuden"@en .
+
+dbr:Takeda_Nobuhiro_no_Ace_Striker
+        a                dbo:VideoGame ;
+        rdfs:comment     "Takeda Nobuhiro no Ace Striker (武田修宏のエースストライカー, \"Nobuhiro Takeda's Ace Striker\") is a soccer simulation video game published by Jaleco Entertainment for the Game Boy handheld, which was released exclusively in Japan in 1994. The game is similar to J-Cup Soccer (known in North America and in Europe as Goal!), the only difference is that it was licensed/endorsed by Takeda Nobuhiro."@en ;
+        dbo:developer    <http://dbpedia.org/resource/Tose_(company)> ;
+        dbo:releaseDate  "1994-02-18"^^xsd:date ;
+        foaf:name        "Takeda Nobuhiro no Ace Striker"@en .
+
+dbr:DK_Jungle_Climber
+        a                dbo:VideoGame ;
+        rdfs:comment     "DK: Jungle Climber, known in Japan and Europe as Donkey Kong: Jungle Climber (ドンキーコング　ジャングルクライマー Donkī Kongu Janguru Kuraimā), is a platforming video game developed by Paon and published by Nintendo for the Nintendo DS handheld video game console. It was released in Japan on August 9, 2007. It was released in the United States on September 10, 2007. DK: Jungle Climber is the sequel to DK: King of Swing for the Game Boy Advance, featuring similar gameplay. However, the visuals have been designed to more closely resemble Donkey Kong Country and add dual screen support."@en ;
+        dbo:developer    dbr:Paon ;
+        dbo:releaseDate  "2010-09-07"^^xsd:date ;
+        foaf:name        "DK: Jungle Climber"@en .
+
+dbr:Wargaming_Chicago-Baltimore
+        a                      yago:WikicatVideoGameDevelopmentCompanies ;
+        rdfs:comment           "Wargaming Chicago-Baltimore (formerly Wargaming West and Day 1 Studios) is an American game developer that operates in Chicago, Illinois and Hunt Valley, Maryland. They worked in tandem with developer FASA Interactive to create their first two games MechAssault, which Microsoft used to promote their Xbox Live service, and MechAssault 2: Lone Wolf. They worked with Monolith Productions to make the Xbox 360 and PlayStation 3 console ports of F.E.A.R.."@en ;
+        dbo:numberOfEmployees  "160"^^xsd:nonNegativeInteger ;
+        foaf:homepage          <http://www.wargamingchicagobaltimore.com/> ;
+        foaf:name              "Wargaming Chicago-Baltimore"@en .
+
+dbr:Rise_of_Incarnates
+        a                dbo:VideoGame ;
+        rdfs:comment     "Rise of Incarnates was a multiplayer free-to-play fighting video game published by Bandai Namco Entertainment. Announced early 2014 and presented at the 2014 Electronic Entertainment Expo, the game featured two-on-two gameplay. The game was developed by the same staff that worked on the Soul, Tekken and Mobile Suit Gundam: Extreme Vs. series, three major fighting game franchises of Bandai Namco. It was released on July 1, 2015. The game was pulled from Steam on October 14, 2015. The game's servers was shut down on December 15, 2015."@en ;
+        dbo:developer    dbr:Bandai_Namco_Entertainment ;
+        dbo:releaseDate  "2015-07-01"^^xsd:date ;
+        foaf:name        "Rise of Incarnates"@en .
+
+dbr:Blue_Dragon:_Awakened_Shadow
+        a                dbo:VideoGame ;
+        rdfs:comment     "Blue Dragon: Awakened Shadow (Japanese: ブルードラゴン 異界の巨獣 Hepburn: Burū Doragon: Ikai no Kyojū, lit. \"Blue Dragon: Great Beast of the Underworld\") is a role-playing video game developed by Mistwalker and tri-Crescendo and published by Namco Bandai in Japan and Europe and D3 Publisher in North America, for the Nintendo DS video game console and is based on the Blue Dragon series. It is the third installment to the Blue Dragon series and is a direct sequel to both Blue Dragon and Blue Dragon Plus. Hironobu Sakaguchi (Series Creator), Akira Toriyama (Character Designer of Blue Dragon) and Hideo Baba (Brand Manager of Tales series) are involved in the development of the game. It was released in Japan on October 8, 2009, in North America on May 18, 2010, and in Europe on September 24, 2010."@en ;
+        dbo:developer    dbr:Tri-Crescendo ;
+        dbo:releaseDate  "2018-05-09"^^xsd:date ;
+        foaf:name        "Blue Dragon: Awakened Shadow"@en .
+
+dbr:Otogirisō  a         dbo:VideoGame ;
+        rdfs:comment     "Otogirisō (弟切草 Otogirisou, lit. St John's wort) is a sound novel developed and published by Chunsoft. The game was first released on March 7, 1992 in Japan for the SNES and later for the PlayStation on March 25, 1999. It became available on the Virtual Console on August 28, 2007 for the Wii and on July 30, 2014 for the Wii U also available on the PlayStation Network on September 14, 2011."@en ;
+        dbo:developer    dbr:Chunsoft ;
+        dbo:releaseDate  "1999-03-25"^^xsd:date ;
+        foaf:name        "Otogirisou"@en .
+
+dbr:Dr._Mario_Online_Rx
+        a                dbo:VideoGame ;
+        rdfs:comment     "Dr. Mario Online Rx, released in Japan as Dr. Mario & Saikin Bokumetsu (Dr. MARIO & 細菌撲滅) and in Europe and Australia as Dr. Mario & Germ Buster, is a puzzle video game starring Dr. Mario. It was one of the WiiWare launch games in Japan, Europe, and Australia, and was released on March 25, 2008 (Japan) and May 20, 2008 (Europe/Australia). It was released in North America on May 26, 2008. It costs 1000 Wii Points and takes up 103 Blocks."@en ;
+        dbo:developer    dbr:Arika ;
+        dbo:releaseDate  "2008-03-25"^^xsd:date ;
+        foaf:name        "Dr. Mario Online Rx"@en .
+
+dbr:Akimi_Village  a     dbo:VideoGame ;
+        rdfs:comment     "Akimi Village is an adventure game developed by NinjaBee in 2011 for the PlayStation 3 Network."@en ;
+        dbo:developer    dbr:NinjaBee ;
+        dbo:releaseDate  "2011-06-14"^^xsd:date ;
+        foaf:name        "Akimi Village"@en .
+
+dbr:Bases_Loaded_4  a    dbo:VideoGame ;
+        rdfs:comment     "Bases Loaded 4 (known in Japan as Moe-Pro! Saikyou Hen) is the fourth installment for the Bases Loaded Series for the NES."@en ;
+        dbo:developer    <http://dbpedia.org/resource/Tose_(company)> ;
+        dbo:releaseDate  "1991-11-22"^^xsd:date ;
+        foaf:name        "Bases Loaded 4"@en .
+
+dbr:Spycraft:_The_Great_Game
+        a                dbo:VideoGame ;
+        rdfs:comment     "Spycraft (also known by its full title, Spycraft: The Great Game) is an adventure CD-ROM game published by Activision in 1996. It details the attempted assassination of the President of the United States and the CIA and SVR attempts to save him. Although the game was not approved by either organization, it tends to favour realism due to its coordination with former CIA director William Colby and former KGB Major-General Oleg Kalugin, who also appear in the game as themselves. The game also stars James Karen, Dennis Lipscomb, Joseph Ruskin, Tim De Zarn, Kirk B.R. Woller, Allan Kolman and Charles Napier in prominent roles."@en ;
+        dbo:developer    dbr:Activision ;
+        dbo:releaseDate  "1996-02-29"^^xsd:date ;
+        foaf:name        "Spycraft: The Great Game"@en .
+
+dbr:FarmVille  a         dbo:VideoGame ;
+        rdfs:comment     "FarmVille is a farming simulation social network game developed by Zynga in 2009. It is similar to Happy Farm, Farm Town, and video games such as the Story of Seasons series. Its gameplay involves various aspects of farm management such as plowing land, planting, growing, and harvesting crops, harvesting trees and raising livestock. A sequel, FarmVille 2, was released in September 2012."@en ;
+        dbo:developer    dbr:Zynga ;
+        dbo:releaseDate  "2009-06-19"^^xsd:date ;
+        foaf:name        "FarmVille"@en .
+
+dbr:The_Legend_of_Zelda:_Ocarina_of_Time_3D
+        a                dbo:VideoGame ;
+        rdfs:comment     "The Legend of Zelda: Ocarina of Time 3D (Japanese: ゼルダの伝説 時のオカリナ 3D Hepburn: Zeruda no Densetsu: Toki no Okarina 3D) is an action-adventure video game co-developed by Grezzo and Nintendo EAD Tokyo and published by Nintendo for the Nintendo 3DS handheld game console. The game was released worldwide in June 2011. A remake of the 1998 Nintendo 64 title The Legend of Zelda: Ocarina of Time, it features mirrored versions of the rearranged dungeons from Ocarina of Time Master Quest, as well as updated graphics and added stereoscopic effects."@en ;
+        dbo:developer    dbr:Grezzo ;
+        dbo:releaseDate  "2011-06-16"^^xsd:date ;
+        foaf:name        "The Legend of Zelda: Ocarina of Time 3D"@en .
+
+dbr:Angry_Birds_Trilogy
+        a                dbo:VideoGame ;
+        rdfs:comment     "Angry Birds Trilogy is a video game co-developed by Rovio Entertainment, Exient Entertainment, Housemarque, and Fun Labs and published by Activision. The game contains the first three games of the popular mobile game series (Angry Birds, Angry Birds Seasons and Angry Birds Rio) and was released for Xbox 360, PlayStation 3 and on Nintendo 3DS on September 25, 2012 in North America and September 28 in Europe. Both the PlayStation 3 and Xbox 360 versions of the game are able to be played with motion controls along with the traditional controllers. The game was released on Wii and Wii U consoles on August 13, 2013 in North America and on August 16 in Europe. The game was released for the PlayStation Vita in October 2013."@en ;
+        dbo:developer    dbr:Fun_Labs ;
+        dbo:releaseDate  "1928-09-12"^^xsd:date ;
+        foaf:name        "Angry Birds Trilogy"@en .
+
+dbr:Harvest_Moon:_Hero_of_Leaf_Valley
+        a                dbo:VideoGame ;
+        rdfs:comment     "Harvest Moon: Hero of Leaf Valley (牧場物語シュガー村と皆の願い Bokujō Monogatari: Sugar Mura to Minna no Negai, lit. \"Ranch Story: Sugar Village and Everyone's Wish\") is a video game in the farm simulation series Story of Seasons for PlayStation Portable, developed by Marvelous Interactive Inc. and published in the U.S. by Natsume. It was released on March 19, 2009 in Japan and on April 26, 2010 in North America."@en ;
+        dbo:developer    dbr:Marvelous_Entertainment ;
+        dbo:releaseDate  "1926-04-09"^^xsd:date ;
+        foaf:name        "Harvest Moon: Hero of Leaf Valley"@en .
+
+dbr:Secret_Agent_Clank
+        a                dbo:VideoGame ;
+        rdfs:comment     "Secret Agent Clank is a platform game developed by High Impact Games for the PlayStation Portable and published by Sony Computer Entertainment. It was first released in North America on June 17, 2008. A PlayStation 2 version was ported by Sanzaru Games, and was released on May 26, 2009, in North America and in Europe on June 19, 2009."@en ;
+        dbo:developer    dbr:Sanzaru_Games ;
+        dbo:releaseDate  "2019-06-09"^^xsd:date ;
+        foaf:name        "Secret Agent Clank"@en .
+
+dbr:Jellyvision  a             yago:WikicatVideoGameDevelopmentCompanies ;
+        rdfs:comment           "The Jellyvision Lab, Inc. (commonly referred to as Jellyvision) is a Chicago-based interactive software company founded by Jackbox Games (formerly Jellyvision Games, Inc.) founder Harry Gottlieb."@en ;
+        dbo:numberOfEmployees  "277"^^xsd:nonNegativeInteger ;
+        foaf:homepage          <http://jellyvision.com> ;
+        foaf:name              "The Jellyvision Lab, Inc."@en .
+
+dbr:Bolt_Creative  a           yago:WikicatVideoGameDevelopmentCompanies ;
+        rdfs:comment           "Bolt Creative is a developer and publisher of video games based in San Francisco, United States. It was founded in 2001 by Dave Castelnuovo and Andrew Donley as an Adobe Flash development studio. In October 2008 the company, now consisting of Dave Castelnuovo and Allan Dye, decided to begin publishing video games for iOS."@en ;
+        dbo:numberOfEmployees  "3"^^xsd:nonNegativeInteger ;
+        foaf:homepage          <http://www.boltcreative.com/> ;
+        foaf:name              "Bolt Creative"@en .
+
+dbr:Sports_Collection
+        a                dbo:VideoGame ;
+        rdfs:comment     "Sports Collection (スポーツコレクション) is a 1996 Japan-exclusive sports video game released by Tonkin House for the Game Boy handheld."@en ;
+        dbo:developer    <http://dbpedia.org/resource/Tose_(company)> ;
+        dbo:releaseDate  "1996-09-27"^^xsd:date ;
+        foaf:name        "Sports Collection"@en .
+
+<http://dbpedia.org/resource/Sakura_Wars:_So_Long,_My_Love>
+        a                dbo:VideoGame ;
+        rdfs:comment     "Sakura Wars: So Long, My Love (サクラ大戦Ｖ 〜さらば愛しき人よ〜 Sakura Taisen Faibu: Saraba, Itoshiki Hito yo, Sakura Wars V: So Long, My Love) is a tactical role-playing game with dating sim elements. It was developed and published by Sega, and licensed by Red Entertainment, as the fifth title in the Sakura Wars series for PlayStation 2 and Wii. It was released on the PlayStation 2 in Japan on July 7, 2005, and it was released on PlayStation 2 and Wii in North America on March 30, 2010 and on the Wii in PAL territories on April 2, 2010, becoming the first of the series' games to be localized for Western markets. First revealed at the Tokyo Game Show convention in 2002, Sakura Wars: So Long, My Love is a title of the Sakura Taisen World Project compilation."@en ;
+        dbo:developer    dbr:Idea_Factory ;
+        dbo:releaseDate  "2010-03-30"^^xsd:date ;
+        foaf:name        "Sakura Wars: So Long, My Love"@en .
+
+dbr:Deus_Ex:_Human_Revolution
+        a                dbo:VideoGame ;
+        rdfs:comment     "Deus Ex: Human Revolution is an action role-playing video game developed by Eidos Montreal and published worldwide by Square Enix in August 2011 for Microsoft Windows, PlayStation 3 and Xbox 360: a version for OS X released the following year. It is the third game in the Deus Ex series, and a prequel to the original Deus Ex. The gameplay—combining first-person shooter, stealth and role-playing elements—features exploration and combat in environments connected to multiple city-based hubs, in addition to quests that grant experience and allow customization of the main character's abilities with items called Praxis Kits. Conversations between characters feature a variety of responses, with options in conversations and at crucial story points affecting how some events play out."@en ;
+        dbo:developer    dbr:Eidos_Montreal ;
+        dbo:releaseDate  "2011-08-23"^^xsd:date ;
+        foaf:name        "Deus Ex: Human Revolution"@en .
+
+<http://dbpedia.org/resource/Dig_&_Spike_Volleyball>
+        a                dbo:VideoGame ;
+        rdfs:comment     "Dig & Spike Volleyball - known as Volleyball Twin (バレーボールTwin) in Japan - is a volleyball video game developed by TOSE. The player can choose either two variations: Men's indoor volleyball and Women's beach volleyball."@en ;
+        dbo:developer    <http://dbpedia.org/resource/Tose_(company)> ;
+        dbo:releaseDate  "1992-11-27"^^xsd:date ;
+        foaf:name        "Dig & Spike Volleyball"@en .
+
+dbr:The_First_Templar
+        a                dbo:VideoGame ;
+        rdfs:comment     "The First Templar is an action-adventure video game developed by Haemimont Games and published by Kalypso Media for the Xbox 360 and Microsoft Windows. It was released on both platforms on May 2011 in Europe and North America."@en ;
+        dbo:developer    dbr:Haemimont_Games ;
+        dbo:releaseDate  "2017-05-11"^^xsd:date ;
+        foaf:name        "The First Templar"@en .
+
+dbr:Boingz  a            dbo:VideoGame ;
+        rdfs:comment     "Boingz is a WiiWare game developed by NinjaBee and published by RealNetworks that was released on November 24, 2008. It costs 1000 Wii Points."@en ;
+        dbo:developer    dbr:NinjaBee ;
+        dbo:releaseDate  "2008-11-24"^^xsd:date ;
+        foaf:name        "Boingz"@en .
+
+dbr:Tri-Crescendo  a           yago:WikicatVideoGameDevelopmentCompanies ;
+        rdfs:comment           "tri-Crescendo is a video game developer from Japan. It was founded in February 1999 by Hiroya Hatsushiba, who still runs the company. Hatsushiba, originally being a sound programmer, carried his experience into tri-Crescendo; the company was initially responsible for the sound in all games by tri-Ace starting with Valkyrie Profile until 2001 when the company co-created Baten Kaitos with Monolith Soft. tri-Crescendo then went on to make Eternal Sonata for the Xbox 360 and PlayStation 3 and Fragile Dreams: Farewell Ruins of the Moon for the Wii."@en ;
+        dbo:numberOfEmployees  "27"^^xsd:nonNegativeInteger ;
+        foaf:homepage          <http://www.tri-crescendo.co.jp/> ;
+        foaf:name              "tri-Crescendo"@en .
+
+dbr:Asobo_Studio  a            yago:WikicatVideoGameDevelopmentCompanies ;
+        rdfs:comment           "Asobo Studio SARL is a French video game development company based in Bordeaux, France, that was founded in 2002 by 12 experienced video game developers. The studio has developed 17 video games for both consoles and PC, including video game adaptations of Pixar movies: Toy Story 3, Ratatouille, Up and WALL-E. In 2016, Asobo Studio announced 2 games for HoloLens and became the first independent developer in Holographic Entertainment."@en ;
+        dbo:numberOfEmployees  "110"^^xsd:nonNegativeInteger ;
+        foaf:homepage          <http://www.asobostudio.com/> ;
+        foaf:name              "Asobo Studio SARL"@en .
+
+dbr:J._League_Super_Top_Players
+        a                dbo:VideoGame ;
+        rdfs:comment     "J. League Super Top Players (Jリーグスーパートッププレイヤーズ) is a soccer game for the Family Computer, utilizing the Datach Joint ROM System, which was the barcode reader accessory sold separately."@en ;
+        dbo:developer    <http://dbpedia.org/resource/Tose_(company)> ;
+        dbo:releaseDate  "1994-04-22"^^xsd:date ;
+        foaf:name        "J. League Super Top Players"@en .
+
+dbr:428:_Fūsa_Sareta_Shibuya_de
+        a                dbo:VideoGame ;
+        rdfs:comment     "428: Fūsa Sareta Shibuya de (Japanese: 428 〜封鎖された渋谷で〜, literally \"428: In a Blockaded Shibuya\") is a visual novel and adventure video game created by Kōichi Nakamura and Jiro Ishii, developed by Nakamura's company Chunsoft, and published by Sega, originally in Japan for the Wii on December 4, 2008. The game was also ported by Spike to the PlayStation 3 and PlayStation Portable. A version for iOS and Android was released as well in 2011."@en ;
+        dbo:developer    dbr:Chunsoft ;
+        dbo:releaseDate  "2008-12-04"^^xsd:date ;
+        foaf:name        "428: Fūsa Sareta Shibuya de"@en .
+
+<http://dbpedia.org/resource/Cabela's_Dangerous_Hunts_2009>
+        a                dbo:VideoGame ;
+        rdfs:comment     "Cabela's Dangerous Hunts 2009 is a hunting video game published by Activision for the PlayStation 2, PlayStation 3, Wii, and Xbox 360 video game consoles. It was released in the United States on September 23, 2008."@en ;
+        dbo:developer    dbr:Fun_Labs ;
+        dbo:releaseDate  "2008-09-23"^^xsd:date ;
+        foaf:name        "Cabela's Dangerous Hunts 2009"@en .
+
+dbr:Tantalus_Media  a          yago:WikicatVideoGameDevelopmentCompanies ;
+        rdfs:comment           "Tantalus Media (formerly Tantalus Interactive) is an Australian video game developer based in Melbourne, Australia, founded in 1994 by former Beam Software programmers Trevor Nuridin, Tim Bennett and Andrew Bailey. In the mid 90's Tantalus was partly owned by UK developer Perfect Entertainment, which secured contracts with Psygnosis for ports of their popular PlayStation games to the Sega Saturn. During this time Tantalus was known as Tantalus Entertainment, but reverted to Tantalus Interactive after they became independent when separating from Perfect in 1998. The company changed its name to Tantalus Media in 2007 following investment from private equity company Netus. In 2010 following the completion of the DS & PSP title Megamind: The blue defender, CEO Tom Crago re-acquired the busines"@en ;
+        dbo:numberOfEmployees  "20"^^xsd:nonNegativeInteger ;
+        foaf:homepage          <http://www.tantalus.com.au/> ;
+        foaf:name              "Tantalus Media"@en .
+
+dbr:Bigpoint_Games  a          yago:WikicatVideoGameDevelopmentCompanies ;
+        rdfs:comment           "Bigpoint GmbH is a German video game developer. The company develops stand-alone browser-based games as well as social network games. Bigpoint also runs a gaming portal website with a number of browser-based massively multiplayer online role playing games it has produced and has over 200 million registered users (announced in June 2011). Bigpoint.com states that 337,104,419 players are registered in the top right corner, as of 10/10/13. NBCU has featured some of Bigpoint's games on the websites of some of its cable channels."@en ;
+        dbo:numberOfEmployees  "800"^^xsd:nonNegativeInteger ;
+        foaf:homepage          <http://www.bigpoint.net> ;
+        foaf:name              "Bigpoint GmbH"@en .
+
+dbr:Bubble_Safari  a     dbo:VideoGame ;
+        rdfs:comment     "Bubble Safari is a Match 3 social network game by Zynga. The object is to help a monkey named Bubbles reconnect with his friends. Following its May 2012 release, Bubble Safari became the fastest-growing Facebook game, with 1.9 million active users for the week of July 9. PC Magazine ranked Bubble Safari as no. 5 on its Best Facebook Games list. Arcade game designer Mark Turmell, noted for such games as NBA Jam, led Bubble Safari’s development. Bubble Safari is Zynga’s first arcade game, the first Zynga game released on Zynga.com and Facebook simultaneously, and the first game from Zynga San Diego."@en ;
+        dbo:developer    dbr:Zynga ;
+        dbo:releaseDate  "2012-12-12"^^xsd:date ;
+        foaf:name        "Bubble Safari"@en .
+
+<http://dbpedia.org/resource/Ben_10:_Omniverse_(video_game)>
+        a                dbo:VideoGame ;
+        rdfs:comment     "Ben 10: Omniverse is a video game based on the American animated action-comedy series of the same name. The game was published by D3 Publisher in November 2012 for PlayStation 3, Xbox 360, Nintendo DS, Nintendo 3DS, Wii, and Wii U. It is also available for digital download from the Nintendo eShop on the Wii U, the PlayStation Store for PS3 and Xbox Live Arcade for Xbox 360 in North America and Europe on December 11, 2012, costing $30 CAD, $10 CAD less than the retail value."@en ;
+        dbo:developer    dbr:1st_Playable_Productions ;
+        dbo:releaseDate  "2012-11-18"^^xsd:date ;
+        foaf:name        "Ben 10: Omniverse"@en .
+
+<http://dbpedia.org/resource/Flock!>
+        a                dbo:VideoGame ;
+        rdfs:comment     "Flock! (stylized as FLOCK!) is a puzzle video game developed by Proper Games and published by Capcom for Windows, PlayStation Network and Xbox Live Arcade. It was released for Microsoft Windows on April 7, 2009 through Steam and Stardock's digital distribution service Impulse, Xbox Live Arcade on April 8, 2009 and PlayStation Network on April 9, 2009."@en ;
+        dbo:developer    dbr:Proper_Games ;
+        dbo:releaseDate  "2009-04-08"^^xsd:date ;
+        foaf:name        "FLOCK!"@en .
+
+dbr:Mario_Super_Sluggers
+        a                dbo:VideoGame ;
+        rdfs:comment     "Mario Super Sluggers, known in Japan as Super Mario Stadium Family Baseball (スーパーマリオスタジアム ファミリーベースボール Sūpā Mario Sutajiamu Famirī Bēsubōru), is a sports video game for the Wii developed by Namco Bandai Games and Now Production, and published by Nintendo. It was previously known by the working title Super Mario Stadium Baseball. It is part of the Mario sports series, and the sequel to Mario Superstar Baseball for the GameCube. Mario Super Sluggers was released in Japan on June 19, 2008 and in North America on August 25, 2008. It was not released in Europe and Australia, due to being in production at the same time as Mario Kart Wii that was released two months earlier, resulting in a limited release of this game, although an issue of the Official Nintendo Magazine has stated a Summer 2009 re"@en ;
+        dbo:developer    dbr:Bandai_Namco_Entertainment ;
+        dbo:releaseDate  "1925-08-08"^^xsd:date ;
+        foaf:name        "Mario Super Sluggers"@en .
+
+dbr:Final_Fantasy_Chronicles
+        a                dbo:VideoGame ;
+        rdfs:comment     "Final Fantasy Chronicles is a compilation of Square's role-playing video games Final Fantasy IV and Chrono Trigger, released for the North American Sony PlayStation on June 29, 2001. TOSE ported both titles from the Super Nintendo Entertainment System; each had been previously released as individual Japanese PlayStation ports in 1997 (Final Fantasy IV) and 1999 (Chrono Trigger). Several bonus features were added to each game, such as art galleries, bestiaries, and cutscenes—including computer-generated full motion video used at the beginning of Final Fantasy IV and anime scenes used throughout Chrono Trigger."@en ;
+        dbo:developer    <http://dbpedia.org/resource/Tose_(company)> ;
+        dbo:releaseDate  "2001-06-29"^^xsd:date ;
+        foaf:name        "Final Fantasy Chronicles"@en .
+
+dbr:Behaviour_Interactive
+        a                      yago:WikicatVideoGameDevelopmentCompanies ;
+        rdfs:comment           "Behaviour Interactive Inc. (French: Behaviour Intéractif Inc., stylized as bE HAVIOUR) is an independent game development studio in Canada, specializing in the production of 2D and 3D action/adventure games for home video game consoles, handheld game consoles and personal computers."@en ;
+        dbo:numberOfEmployees  "375"^^xsd:nonNegativeInteger ;
+        foaf:homepage          <http://bhvr.com> ;
+        foaf:name              "Behaviour Interactive Inc."@en .
+
+dbr:Little_Computer_People
+        a                dbo:VideoGame ;
+        rdfs:comment     "Little Computer People, also called House-on-a-Disk, is a life simulation game released in 1985 by Activision for the Commodore 64, Sinclair ZX Spectrum, Amstrad CPC, Atari ST and Apple II. An Amiga version was released in 1987. Two Japanese versions were also released in 1987, a Family Computer Disk System version, published in Japan by DOG (a subsidiary of Square), and a PC-8801 version."@en ;
+        dbo:developer    dbr:Activision ;
+        dbo:releaseDate  "1987-04-03"^^xsd:date ;
+        foaf:name        "Apple Town Story"@en .
+
+<http://dbpedia.org/resource/Tose_(company)>
+        a                      yago:WikicatVideoGameDevelopmentCompanies ;
+        rdfs:comment           "Tose Co., Ltd. (株式会社トーセ Kabushiki-gaisha Tōse) (TYO: 4728) (also called Tose Software) is a video game development company based in Kyoto, Japan. It is mostly known for developing Nintendo's Game & Watch Gallery series, various Dragon Ball games, as well as other Nintendo products. Tose has developed or co-developed over 1,000 games since the company's inception in 1979, but is virtually never credited in the games themselves (an exception to this is Game & Watch Gallery 4 and The Legendary Starfy series, as Tose shares the copyright with Nintendo). \"We're always behind the scenes,\" said Masa Agarida, Vice President of Tose's U.S. division. \"Our policy is not to have a vision. Instead, we follow our customers' visions. Most of the time we refuse to put our name on the games, not even staff"@en ;
+        dbo:numberOfEmployees  "1000"^^xsd:nonNegativeInteger ;
+        foaf:homepage          <http://www.tose.co.jp/en/> ;
+        foaf:name              "Tose Co., Ltd."@en .
+
+dbr:World_of_Zoo  a      dbo:VideoGame ;
+        rdfs:comment     "World of Zoo is a life simulation video game, published by THQ and developed by Blue Fang Games, who also developed the similar Zoo Tycoon series. World of Zoo was released for Microsoft Windows, Wii and Nintendo DS on October 26, 2009. The game was showcased in the Electronic Entertainment Expo 2009 on June 1, 2009, held in the Los Angeles Convention Center. The game educates players about animals using facts provided by the National Geographic Society."@en ;
+        dbo:developer    dbr:1st_Playable_Productions ;
+        dbo:releaseDate  "2009-10-26"^^xsd:date ;
+        foaf:name        "World of Zoo"@en .
+
+<http://dbpedia.org/resource/Days_of_Thunder_(2011_video_game)>
+        a                dbo:VideoGame ;
+        rdfs:comment     "Days of Thunder (known as Days of Thunder: NASCAR Edition on the PlayStation 3 and Days of Thunder: Arcade on the Xbox 360) is a 2011 Stock car racing video game produced by Paramount Digital Entertainment and developed by Piranha Games for PlayStation 3 and Xbox 360. It was released February 22, 2011 on the PlayStation 3 and February 25, 2011 on the Xbox 360. A portable version was developed by Freeverse was initially released for iOS on February 5, 2009. It was later ported to the PlayStation Portable on June 1, 2011. It is a spinoff of the 1990 film Days of Thunder in which the player is a rookie driver coached by Rowdy Burns, the antagonist from the film. The game received very little reception from critics; those that did review the game had generally negative commentary. Reviewers fe"@en ;
+        dbo:developer    dbr:Piranha_Games ;
+        dbo:releaseDate  "2009-02-05"^^xsd:date ;
+        foaf:name        "Days of Thunder"@en .
+
+dbr:We_Cheer_2  a        dbo:VideoGame ;
+        rdfs:comment     "We Cheer 2, known in Japan as We Cheer: Dancing Spirits! (ウィーチア ダンシングスピリッツ！), is a dance video game developed by Bandai Namco Entertainment. It is the sequel to We Cheer."@en ;
+        dbo:developer    dbr:Bandai_Namco_Entertainment ;
+        dbo:releaseDate  "2009-11-03"^^xsd:date ;
+        foaf:name        "We Cheer 2"@en .
+
+dbr:Piranha_Bytes  a           yago:WikicatVideoGameDevelopmentCompanies ;
+        rdfs:comment           "Piranha Bytes is a German video game developer known for their Gothic role-playing video game series."@en ;
+        dbo:numberOfEmployees  "25"^^xsd:nonNegativeInteger ;
+        foaf:homepage          <http://www.piranha-bytes.com/> ;
+        foaf:name              "Piranha Bytes"@en .
+
+dbr:Fun_Labs  a                yago:WikicatVideoGameDevelopmentCompanies ;
+        rdfs:comment           "Fun Labs is a video game developer from Bucharest, Romania, founded in 1999. It creates hunting games based on the Cabela's license."@en ;
+        dbo:numberOfEmployees  "90"^^xsd:nonNegativeInteger ;
+        foaf:homepage          <http://www.funlabs.com/> ;
+        foaf:name              "Fun Labs"@en .
+
+dbr:Firemonkeys_Studios
+        a                      yago:WikicatVideoGameDevelopmentCompanies ;
+        rdfs:comment           "Not be confused with the FireMonkey software interface. Firemonkeys Studios is a developer and publisher of video games, based in Melbourne, Australia. It was founded in 1999 by CEO Robert Murray as Firemint. Originally an independent company, in May 2011, Electronic Arts announced the acquisition of Firemint for an undisclosed sum, making it an in-house studio for EA Interactive. IronMonkey Studios were also taken under EA Interactive's wing back in 2010."@en ;
+        dbo:numberOfEmployees  "60"^^xsd:nonNegativeInteger ;
+        foaf:homepage          <http://www.firemonkeys.com.au/> ;
+        foaf:name              "Firemonkeys Studios"@en .
+
+<http://dbpedia.org/resource/Bases_Loaded_(video_game)>
+        a                dbo:VideoGame ;
+        rdfs:comment     "Bases Loaded, known in Japan as Moero!! Pro Yakyuu (燃えろ!!プロ野球 lit. \"Burn!! Pro Baseball\"), is a baseball video game by Jaleco that was originally released in Japan for the arcades. A version for the Nintendo Entertainment System was released in 1987 in Japan and in 1988 in North America, and a Game Boy port was released in July of 1990. A mobile phone version exists as well. For the Virtual Console, Bases Loaded was released on April 7, 2008 in Japan and on April 12, 2008 in North America for the Wii, at the cost of 500 Wii Points and on May 15, 2013 in Japan and on July 10, 2014 in North America for Nintendo 3DS. The Wii U version in North America (which later released in Japan on October 22, 2014) was also released at the same time as the Nintendo 3DS version. A port by Mebius and Claric"@en ;
+        dbo:developer    <http://dbpedia.org/resource/Tose_(company)> ;
+        dbo:releaseDate  "2014-07-10"^^xsd:date ;
+        foaf:name        "Bases Loaded"@en .
+
+<http://dbpedia.org/resource/Wonder_Boy_(video_game)>
+        a                dbo:VideoGame ;
+        rdfs:comment     "Wonder Boy (ワンダーボーイ Wandā Bōi) is a 1986 platformer video game published by Sega and developed by Escape (now known as Westone Bit Entertainment). Originally designed for arcades, it was later ported to the SG-1000, Sega Mark III/Master System and Game Gear video game consoles by Sega, and to the ZX Spectrum, Commodore 64 and Amstrad CPC home computers by Activision. The game is also known as Super Wonder Boy (スーパーワンダーボーイ Sūpā Wandā Bōi) for its Sega Mark III release in Japan and Revenge of Drancon for its Game Gear release in North America. A high definition remake of the game, titled Wonder Boy Returns, was developed by CFK and released on Steam on October 12, 2016."@en ;
+        dbo:developer    dbr:Activision ;
+        dbo:releaseDate  "1987-03-22"^^xsd:date ;
+        foaf:name        "Wonder Boy"@en .
+
+dbr:LocoCycle  a         dbo:VideoGame ;
+        rdfs:comment     "LocoCycle is a motorcycle racing video game developed by Twisted Pixel Games and published by Microsoft Studios. Originally announced as an Xbox Live Arcade title at the Electronic Entertainment Expo 2012, LocoCycle was released in November 2013 for Xbox One, and was released on the 14th February 2014 (Valentine's Day) for Microsoft Windows and Xbox 360."@en ;
+        dbo:developer    dbr:Twisted_Pixel_Games ;
+        dbo:releaseDate  "2013-11-22"^^xsd:date ;
+        foaf:name        "LocoCycle"@en .
+
+<http://dbpedia.org/resource/Machi_(video_game)>
+        a                dbo:VideoGame ;
+        rdfs:comment     "Machi (街?, literally \"City\") is a visual novel adventure game developed and published by Chunsoft and released in Japan for the Sega Saturn in 1998. It was later released for the Sony PlayStation in 1999, published as the third entry in the \"Sound Novel Evolution\" series, and retitled Machi: Unmei no Kousaten (街 〜運命の交差点〜, lit. \"City: The Intersection of Fate\"). Eventually, the game was remade for the PlayStation Portable, now titled Machi: Unmei no Kousaten: Tokubetsuhen (街 〜運命の交差点〜 特別篇, lit. \"City: The Intersection of Fate － Special Version\") and was released in 2006."@en ;
+        dbo:developer    dbr:Chunsoft ;
+        dbo:releaseDate  "1998-01-22"^^xsd:date ;
+        foaf:name        "Machi"@en .
+
+dbr:NinjaBee  a                yago:WikicatVideoGameDevelopmentCompanies ;
+        rdfs:comment           "NinjaBee is a game development studio that develops downloadable games for Microsoft Windows, Mac OS, handheld consoles, the Wii's WiiWare service, the Xbox 360's Xbox Live Arcade, and PS3's PlayStation Network. As a sub-division of Wahoo Studios, NinjaBee is primarily involved in downloadable games, with Wahoo being responsible for any larger projects. Both are located in Orem, UT and employ around 45 employees total, including off-site contractors."@en ;
+        dbo:numberOfEmployees  "45"^^xsd:nonNegativeInteger ;
+        foaf:homepage          <http://www.ninjabee.com> ;
+        foaf:name              "NinjaBee"@en .
+
+dbr:Ninja_Reflex  a      dbo:VideoGame ;
+        rdfs:comment     "Ninja Reflex is a video game developed by Sanzaru Games, and co-published by Nunchuck Games and Electronic Arts. It was released for Wii and Nintendo DS on March 4, 2008 in North America and March 14, 2008 in Europe. It was also released for the Steam service on March 21, 2008."@en ;
+        dbo:developer    dbr:Sanzaru_Games ;
+        dbo:releaseDate  "2014-03-08"^^xsd:date ;
+        foaf:name        "Ninja Reflex"@en .
+
+dbr:Pokémon_Mystery_Dungeon:_Explorers_of_Time_and_Explorers_of_Darkness
+        a                dbo:VideoGame ;
+        rdfs:comment     "Pokémon Mystery Dungeon: Explorers of Time (ポケモン不思議のダンジョン 時の探検隊 Pokémon Fushigi no Danjon Toki no Tankentai, lit. \"Pokémon Mystery Dungeon: Time Exploration Team\") and Pokémon Mystery Dungeon: Explorers of Darkness (ポケモン不思議のダンジョン 闇の探検隊 Pokémon Fushigi no Danjon Yami no Tankentai, lit. \"Pokémon Mystery Dungeon: Darkness Exploration Team\") are a matched pair of Pokémon games for the Nintendo DS. The two games were released in Japan on September 13, 2007, and were released in North America on April 20, 2008. They were released in Europe on July 4, 2008."@en ;
+        dbo:developer    dbr:Chunsoft ;
+        dbo:releaseDate  "2020-04-07"^^xsd:date ;
+        foaf:name        "Pokemon Mystery Dungeon: Explorers of Darkness"@en .
+
+dbr:Ronimo_Games  a            yago:WikicatVideoGameDevelopmentCompanies ;
+        rdfs:comment           "Ronimo Games is a Dutch video game developer founded in 2007 by former students of the Utrecht School of the Arts."@en ;
+        dbo:numberOfEmployees  "17"^^xsd:nonNegativeInteger ;
+        foaf:homepage          <http://www.ronimo-games.com> ;
+        foaf:name              "Ronimo Games"@en .
+
+dbr:Dual_Blades  a       dbo:VideoGame ;
+        rdfs:comment     "Dual Blades is a fighting video game published by Metro3D, Inc. for the Game Boy Advance. It is a fighting game with single player and player versus player modes. It features a \"power combining system\" which was very new for the genre at that time. This system allows players to create their own fighting style. Characters include ninjas, knights, and American adventurers, an Ottoman warrior named Efe and Nagasapa, an innocent-looking old lady who is in fact a Khazak sorceress."@en ;
+        dbo:developer    dbr:Sobee ;
+        dbo:releaseDate  "1925-12-02"^^xsd:date ;
+        foaf:name        "Dual Blades"@en .
+
+dbr:Digimon_Story_Lost_Evolution
+        a                dbo:VideoGame ;
+        rdfs:comment     "Digimon Story: Lost Evolution (Japanese: デジモンストーリー ロストエボリューション Hepburn: Dejimon Sutōrī Rosuto Eboryūshon) is a role-playing video game published by Bandai Namco Games for the Nintendo DS. It is the fifth Digimon game for the handheld, and the third game in the Digimon Story sub-series. The title was released exclusively in Japan on July 1, 2010, and features 314 unique Digimon species."@en ;
+        dbo:developer    dbr:Bandai_Namco_Entertainment ;
+        dbo:releaseDate  "2010-07-01"^^xsd:date ;
+        foaf:name        "Digimon Story Lost Evolution"@en .
+
+dbr:Zynga  a                   yago:WikicatVideoGameDevelopmentCompanies ;
+        rdfs:comment           "Zynga /ˈzɪŋɡə/ is an American provider of social video game services founded in July 2007 and headquartered in San Francisco, California, United States. The company develops social games that work stand-alone on mobile phone platforms such as Apple iOS, Android, Windows Phone and on the Internet through its website, Zynga.com, and social networking websites such as Facebook, Google+, and Tencent QQ. Zynga states its mission as \"connecting the world through games.\" The company was named in honor of Zinga, CEO Mark Pincus's deceased American bulldog."@en ;
+        dbo:numberOfEmployees  "1669"^^xsd:nonNegativeInteger ;
+        foaf:homepage          <http://zynga.com/> ;
+        foaf:name              "Zynga Inc."@en .
+
+dbr:Shiren_the_Wanderer_2
+        a                dbo:VideoGame ;
+        rdfs:comment     "Shiren the Wanderer 2, known in Japan as Fushigi no Dungeon: Fūrai no Shiren 2: Oni Shūrai! Shiren-jō!, is a role-playing video game developed and published by Chunsoft for the Nintendo 64. It is the second main entry in the Shiren the Wanderer series, which is part of the larger Mystery Dungeon series, and was originally released in Japan on September 27, 2000. The game follows Shiren, a boy who aims to defend a village from attacking demons by building a castle; he finds building materials and other items by exploring dungeons."@en ;
+        dbo:developer    dbr:Chunsoft ;
+        dbo:releaseDate  "2000-09-27"^^xsd:date ;
+        foaf:name        "Shiren the Wanderer 2"@en .
+
+<http://dbpedia.org/resource/Frostbite_(video_game)>
+        a                dbo:VideoGame ;
+        rdfs:comment     "Frostbite is a 1983 action game designed by Steve Cartwright for the Atari 2600, and published by Activision in 1983. The game combines elements of Frogger and Q*bert in an arctic setting. The object of Frostbite is to help Frostbite Bailey build igloos by jumping on floating blocks of ice, while trying to avoid deadly hazards like clams, snow geese, Alaskan king crabs, polar bears, and the rapidly dropping temperature."@en ;
+        dbo:developer    dbr:Activision ;
+        dbo:releaseDate  "1983-08-14"^^xsd:date ;
+        foaf:name        "Frostbite"@en .
+
+dbr:Syn_Sophia  a              yago:WikicatVideoGameDevelopmentCompanies ;
+        rdfs:comment           "Syn Sophia, Inc., formerly AKI Corporation and The Man Breeze, is an independent video game development studio located in Kichijōji, Tokyo, Japan founded on June 19, 1995. The company is most well known for its popular wrestling games in the late 1990s and early-mid-2000s, starting with the release of Virtual Pro-Wrestling in 1996. The title was the first entry in the Virtual Pro Wrestling series."@en ;
+        dbo:numberOfEmployees  "65"^^xsd:nonNegativeInteger ;
+        foaf:homepage          <http://www.aki-usa.com/> , <http://www.syn-sophia.co.jp/> ;
+        foaf:name              "Syn Sophia"@en .
+
+dbr:Dark_Side_of_the_Moon:_A_Sci-Fi_Adventure
+        a                dbo:VideoGame ;
+        rdfs:comment     "Dark Side of the Moon released in 1998 is an adventure-genre computer game developed and published by SouthPeak Interactive. The game is powered with SouthPeak Interactive Video Reality engine."@en ;
+        dbo:developer    dbr:SouthPeak_Games ;
+        dbo:releaseDate  "1998-11-30"^^xsd:date ;
+        foaf:name        "Dark Side of the Moon: A Sci-Fi Adventure"@en .
+
+<http://dbpedia.org/resource/Megamind_(video_game)>
+        a                dbo:VideoGame ;
+        rdfs:comment     "Megamind is a video game based on the DreamWorks Animation animated movie of the same name. Several licensed video game tie-ins that were developed or published by THQ were released on November 2, 2010, to coincide with the film's release. The Xbox 360 and PlayStation 3 version is titled Megamind: Ultimate Showdown, while the Wii version is titled Megamind: Mega Team Unite and the PlayStation Portable and Nintendo DS versions are both titled Megamind: The Blue Defender. It was the last DreamWorks Animation game released for PlayStation Portable."@en ;
+        dbo:developer    dbr:Tantalus_Media ;
+        dbo:releaseDate  "1926-11-10"^^xsd:date ;
+        foaf:name        "Megamind"@en .
+
+dbr:Natural_Selection_2
+        a                dbo:VideoGame ;
+        rdfs:comment     "Natural Selection 2 (NS2) is a multi-player, team oriented video game which combines first-person shooter and real-time strategy rules. It is set in a science fiction universe in which a human team fights an alien team for control of resources and territory in large and elaborate indoor facilities."@en ;
+        dbo:developer    dbr:Unknown_Worlds_Entertainment ;
+        dbo:releaseDate  "2012-10-31"^^xsd:date ;
+        foaf:name        "Natural Selection 2"@en .
+
+dbr:Haemimont_Games  a         yago:WikicatVideoGameDevelopmentCompanies ;
+        rdfs:comment           "Haemimont Games is a Bulgarian video game developer founded in September 1997 and based in Sofia. The company primarily concentrates on producing medieval and ancient history strategy games and has about 50 employees, making it Bulgaria's largest video game developer."@en ;
+        dbo:numberOfEmployees  "50"^^xsd:nonNegativeInteger ;
+        foaf:homepage          <http://www.haemimontgames.com/> ;
+        foaf:name              "Haemimont Games"@en .
+
+dbr:Real_Racing_3  a     dbo:VideoGame ;
+        rdfs:comment     "Real Racing 3 is a 2013 racing game, developed by Firemonkeys Studios and published by Electronic Arts for iOS, Android, Nvidia Shield and BlackBerry 10 devices. It was released on iOS and Android on 28 February 2013 under the freemium business model; it was free to download, with enhancements available through in-app purchases. The game is the sequel to 2009's Real Racing and 2010's Real Racing 2. Primarily due to the freemium nature of the game, it received less favorable reviews than its predecessors, although the gameplay remains generally lauded."@en ;
+        dbo:developer    dbr:Firemonkeys_Studios ;
+        dbo:releaseDate  "2013-02-28"^^xsd:date ;
+        foaf:name        "Real Racing 3"@en .
+
+dbr:World_of_Tanks  a    dbo:VideoGame ;
+        rdfs:comment     "World of Tanks is a massively multiplayer online game developed by Belarusian-Cypriot company Wargaming, featuring early to mid-20th century era fighting vehicles. It is built upon a freemium business model where the game is free-to-play, but participants also have the option of paying a fee for use of \"premium\" features. The focus is on player vs. player gameplay with each player controlling an armored vehicle, which may be a light, medium or heavy tank, tank destroyer, or self-propelled gun. World of Tanks debuted as an eSports game at the World Cyber Games 2012."@en ;
+        dbo:developer    dbr:Wargaming_Chicago-Baltimore ;
+        dbo:releaseDate  "2014-02-12"^^xsd:date ;
+        foaf:name        "World of Tanks"@en .
+
+dbr:Need_for_Speed:_No_Limits
+        a                dbo:VideoGame ;
+        rdfs:comment     "Need for Speed: No Limits is a 2015 video game for iOS and Android, and a mobile installment in the Need for Speed video game series, developed by Firemonkeys Studios and published by Electronic Arts. It is the twenty-first installment in the franchise, as well as the franchise's first original title made exclusively for mobile devices, unlike past mobile games in the series that were simply adaptations of various Need for Speed games. It was released on September 30, 2015."@en ;
+        dbo:developer    dbr:Firemonkeys_Studios ;
+        dbo:releaseDate  "2015-09-30"^^xsd:date ;
+        foaf:name        "Need for Speed: No Limits"@en .
+
+dbr:Space_Ark  a         dbo:VideoGame ;
+        rdfs:comment     "Space Ark is a single/multi player arcade video game developed by independent software developer Strawdog Studios for the Microsoft Xbox Live Arcade and PC. The game was officially announced in May 2009 and it was released on June 16, 2010."@en ;
+        dbo:developer    dbr:Strawdog_Studios ;
+        dbo:releaseDate  "2010-06-16"^^xsd:date ;
+        foaf:name        "Space Ark"@en .
+
+dbr:Arika  a                   yago:WikicatVideoGameDevelopmentCompanies ;
+        rdfs:comment           "Arika (アリカ) is a Japanese video game developer. It was formed in 1995 by former Capcom employees. The name of the company itself is the reverse of the name of the company's founder, Akira Nishitani (Nin Nin), who (along with Akiman) created Street Fighter II. Arika's first arcade game was Street Fighter EX. It was successful and was followed up with two updates (Street Fighter EX + and EX + α for the PlayStation), and then two sequels on the arcade and PlayStation 2."@en ;
+        dbo:numberOfEmployees  "50"^^xsd:nonNegativeInteger ;
+        foaf:homepage          <http://www.arika.co.jp/> ;
+        foaf:name              "Arika Co.,Ltd."@en .
+
+<http://dbpedia.org/resource/Densetsu_no_Stafy_(video_game)>
+        a                dbo:VideoGame ;
+        rdfs:comment     "Densetsu no Stafy (伝説のスタフィー Densetsu no Sutafī) is a platform video game developed by Tose and published by Nintendo for the Nintendo Game Boy Advance in Japan. It is the first game in the The Legendary Starfy series."@en ;
+        dbo:developer    <http://dbpedia.org/resource/Tose_(company)> ;
+        dbo:releaseDate  "2002-09-06"^^xsd:date ;
+        foaf:name        "Densetsu no Stafy"@en .
+
+<http://dbpedia.org/resource/Frozen:_Olaf's_Quest>
+        a                dbo:VideoGame ;
+        rdfs:comment     "Disney Frozen: Olaf's Quest is a platform video game developed by 1st Playable Productions and published by GameMill Entertainment. It was first released for Nintendo DS and Nintendo 3DS in North America on November 12, 2013, and in the PAL region on December 6, 2013. The game is based on the 2013 animated film Frozen by Disney, and follows snowman Olaf."@en ;
+        dbo:developer    dbr:1st_Playable_Productions ;
+        dbo:releaseDate  "2013-11-12"^^xsd:date ;
+        foaf:name        "Disney Frozen: Olaf's Quest"@en .
+
+dbr:Moto_Racer_Advance
+        a                dbo:VideoGame ;
+        rdfs:comment     "Moto Racer Advance is a motocross racing game developed by Adeline Software International, produced by Delphine Software International and published by Ubisoft for the Game Boy Advance. It was released in PAL regions on October 4, 2002 and in North America on December 4, 2002. It is part of the Moto Racer series and was the last game to be developed by Adeline Software and also the last with any involvement from Delphine Software."@en ;
+        dbo:developer    dbr:Adeline_Software_International ;
+        dbo:releaseDate  "2002-10-04"^^xsd:date ;
+        foaf:name        "Moto Racer Advance"@en .
+
+dbr:Bandai_Namco_Entertainment
+        a                      yago:WikicatVideoGameDevelopmentCompanies ;
+        rdfs:comment           "Bandai Namco Entertainment Inc. (BNEI) (株式会社バンダイナムコエンターテインメント Kabushiki Gaisha Bandai Namuko Entāteinmento) is an arcade, mobile and home video game publisher, based in Japan. The company also publishes video, music and other entertainment products related to its video game IPs. It is the product of a merger between the video game development divisions of Bandai and Namco. Originally referred to in the West as Namco Bandai Games, the company was internationally renamed as Bandai Namco Games in January 2014. On December 17, 2014, Bandai Namco Holdings announced that it would be changing its gaming division name from Bandai Namco Games to Bandai Namco Entertainment, effective on April 1, 2015."@en ;
+        dbo:numberOfEmployees  "1047"^^xsd:nonNegativeInteger ;
+        foaf:homepage          <http://bandainamcoent.co.jp> ;
+        foaf:name              "Bandai Namco Entertainment Inc"@en .
+
+dbr:Virtua_Quest  a      dbo:VideoGame ;
+        rdfs:comment     "Virtua Quest, known in Japan as Virtua Fighter Cyber Generation: Ambition of the Judgement Six  (バーチャファイター サイバージェネレーション 〜ジャッジメントシックスの野望〜 Bācha Faitā Saibā Jenerēshon: Jajjimento Shikkusu no Yabō), is a Virtua Fighter spin-off title co-developed by TOSE and Sega AM2, and published by Sega for the GameCube and PlayStation 2 video game consoles."@en ;
+        dbo:developer    <http://dbpedia.org/resource/Tose_(company)> ;
+        dbo:releaseDate  "2018-01-04"^^xsd:date ;
+        foaf:name        "Virtua Quest"@en .
+
+dbr:Marvel_Trading_Card_Game
+        a                dbo:VideoGame ;
+        rdfs:comment     "Marvel Trading Card Game is a video game for the Nintendo DS, PC, and PlayStation Portable. It was developed by Vicious Cycle Software and 1st Playable Productions and published by Konami. The game is based on Upper Deck Entertainment's Marvel Comics-based collectible card game, and was released across all three platforms in several regions in 2007."@en ;
+        dbo:developer    dbr:1st_Playable_Productions ;
+        dbo:releaseDate  "2007-06-08"^^xsd:date ;
+        foaf:name        "Marvel Trading Card Game"@en .
+
+dbr:Sakura_Momoko_no_Ukiuki_Carnival
+        a                dbo:VideoGame ;
+        rdfs:comment     "Sakura Momoko no Ukiuki Carnival (さくらももこのウキウキカーニバル Momoko Sakura's Ukiuki Carnival) is a video game developed by Indieszero and Nintendo Special Planning & Development and published by Nintendo for the Game Boy Advance. The game was never released outside Japan."@en ;
+        dbo:developer    dbr:Indieszero ;
+        dbo:releaseDate  "2002-07-05"^^xsd:date ;
+        foaf:name        "Sakura Momoko no Ukiuki Carnival"@en .
+
+<http://dbpedia.org/resource/Legend_of_the_Guardians:_The_Owls_of_Ga'Hoole_(video_game)>
+        a                dbo:VideoGame ;
+        rdfs:comment     "Legend of the Guardians: The Owls of Ga'Hoole is a video game by Warner Bros. Games, released on September 14, 2010. It is based on the film of the same name, and includes some elements from the books. The game is available for PlayStation 3, Wii and Xbox 360 as well as Nintendo DS. It was developed by Krome Studios, except for the Nintendo DS which was developed by Tantalus Media. All versions were published by Warner Bros. Interactive Entertainment."@en ;
+        dbo:developer    dbr:Tantalus_Media ;
+        dbo:releaseDate  "1929-09-10"^^xsd:date ;
+        foaf:name        "Legend of the Guardians: The Owls of Ga'Hoole"@en .
+
+dbr:Takumi_Corporation
+        a                      yago:WikicatVideoGameDevelopmentCompanies ;
+        rdfs:comment           "Takumi Corporation (タクミコーポレーション Takumi Kōporēshon) is a Japanese video game company that is famous for developing arcade shoot 'em ups. Following Toaplan's bankruptcy, some of the former staff went to Takumi. Among Toaplan's offshoots, only Takumi has developed any sequels to former Toaplan games. Takumi is one of the splinter companies formed when the company Toaplan disbanded in 1994, the others being Cave, 8ing/Raizing, and Gazelle. The company had also produced soundtrack albums."@en ;
+        dbo:numberOfEmployees  "23"^^xsd:nonNegativeInteger ;
+        foaf:homepage          <http://www.takumi-net.co.jp/> ;
+        foaf:name              "Takumi Corporation"@en .
+
+dbr:Space_Miner:_Space_Ore_Bust
+        a                dbo:VideoGame ;
+        rdfs:comment     "Space Miner: Space Ore Bust is an iOS role-playing game developed by Venan Entertainment and released on February 5, 2010."@en ;
+        dbo:developer    dbr:Venan_Entertainment ;
+        dbo:releaseDate  "2010-02-05"^^xsd:date ;
+        foaf:name        "Space Miner: Space Ore Bust"@en .
+
+dbr:Dash_of_Destruction
+        a                dbo:VideoGame ;
+        rdfs:comment     "Dash of Destruction (also known as Doritos Dash of Destruction) is a racing advergame developed by independent software developer NinjaBee for the Xbox 360's Xbox Live Arcade service. It was released on December 17, 2008 for free. The concept originated from gamer Mike Borland, winner of Doritos-sponsored \"Unlock Xbox\" competition."@en ;
+        dbo:developer    dbr:NinjaBee ;
+        dbo:releaseDate  "2017-12-08"^^xsd:date ;
+        foaf:name        "Dash of Destruction"@en .
+
+dbr:Disney_Princess:_Magical_Jewels
+        a                dbo:VideoGame ;
+        rdfs:comment     "Disney Princess: Magical Jewels is a video game in the Disney Princess franchise that was developed by 1st Playable Productions and released by Disney Interactive Studios for Nintendo DS in 2007. It is designed as a 2D puzzle action-adventure and features the six original Disney Princesses: Aurora, Belle, Cinderella and Snow White are in the main game, while Jasmine and Ariel are playable in minigames."@en ;
+        dbo:developer    dbr:1st_Playable_Productions ;
+        dbo:releaseDate  "2007-10-16"^^xsd:date ;
+        foaf:name        "Disney Princess: Magical Jewels"@en .
+
+dbr:Adeline_Software_International
+        a                      yago:WikicatVideoGameDevelopmentCompanies ;
+        rdfs:comment           "Adeline Software International was a video game developer founded in February 1993 as a subsidiary company of Delphine Software International, and based in Lyon, France. The team mostly came from Infogrames, another French video game company, after a disagreement about sequels of the Alone in the Dark bestseller."@en ;
+        dbo:numberOfEmployees  "21"^^xsd:nonNegativeInteger ;
+        foaf:homepage          <http://www.adelinesoftware.com> ;
+        foaf:name              "Adeline Software International"@en .
+
+<http://dbpedia.org/resource/Mario_&_Luigi:_Dream_Team>
+        a                dbo:VideoGame ;
+        rdfs:comment     "Mario & Luigi: Dream Team, known in Europe and Australia as Mario & Luigi: Dream Team Bros. and in Japan as Mario & Luigi RPG 4: Dream Adventure (マリオ&ルイージRPG4 ドリームアドベンチャー Mario ando Ruīji Aru Pī Jī Fō: Dorīmu Adobenchā), is a role-playing video game developed by AlphaDream for the Nintendo 3DS. Revealed on February 14, 2013 on Nintendo Direct, it is the fourth entry in the Mario & Luigi series of Mario role-playing games. The game was released in Europe on July 12, 2013, July 13, 2013 in Australia, July 18, 2013 in Japan and in North America on August 11, 2013. In the United States, a download code for the game was included with a silver Mario & Luigi themed Nintendo 3DS XL."@en ;
+        dbo:developer    dbr:Good-Feel ;
+        dbo:releaseDate  "2013-07-12"^^xsd:date ;
+        foaf:name        "Mario & Luigi: Dream Team"@en .
+
+dbr:Ben_10_Alien_Force:_Vilgax_Attacks
+        a                dbo:VideoGame ;
+        rdfs:comment     "Ben 10 Alien Force: Vilgax Attacks is the third game in the Ben 10 video game series, and the second game to be based on the Ben 10: Alien Force series. The second game was based on the first two seasons of series; while Vilgax Attacks is based on the third and final season of the series. It was released on October 27, 2009."@en ;
+        dbo:developer    dbr:1st_Playable_Productions ;
+        dbo:releaseDate  "2012-02-09"^^xsd:date ;
+        foaf:name        "Ben 10 Alien Force: Vilgax Attacks"@en .
+
+<http://dbpedia.org/resource/Ben_10:_Alien_Force_(video_game)>
+        a                dbo:VideoGame ;
+        rdfs:comment     "Ben 10: Alien Force is an action-adventure video game based on the American animated television series of the same name. The game was released in North America on October 28, 2008 and February 2009 in the United Kingdom."@en ;
+        dbo:developer    dbr:1st_Playable_Productions ;
+        dbo:releaseDate  "2020-11-08"^^xsd:date ;
+        foaf:name        "Ben 10: Alien Force"@en .
+
+dbr:Retro_Game_Challenge
+        a                dbo:VideoGame ;
+        rdfs:comment     "Retro Game Challenge, known in Japan as GameCenter CX: Arino no Chōsenjō (ゲームセンターCX 有野の挑戦状 Gēmu Sentā Shī Ekkusu Arino no Chōsenjō), is a Nintendo DS game developed by indieszero and published by Namco Bandai Games. It is based on the television series GameCenter CX and Shinya Arino himself gave much input into the game creation process. The game was released on November 15, 2007 in Japan, and in North America from Xseed Games on February 10, 2009. The game received a score of 33/40 from Famitsu. On February 26, 2009, a sequel, , was released in Japan. Xseed Games announced that the game was not likely to be officially translated into English and in 2014 a complete fan translation was created for the title."@en ;
+        dbo:developer    dbr:Indieszero ;
+        dbo:releaseDate  "2010-02-07"^^xsd:date ;
+        foaf:name        "Retro Game Challenge"@en .
+
+dbr:Indieszero  a              yago:WikicatVideoGameDevelopmentCompanies ;
+        rdfs:comment           "indieszero Corporation, Ltd. (Japanese: 有限会社インディーズゼロ) is a video game production company headquartered in Musashino, Tokyo, Japan. It was founded on April 21, 1997, and has developed video games for other video game companies, including Nintendo and Namco Bandai Games."@en ;
+        dbo:numberOfEmployees  "35"^^xsd:nonNegativeInteger ;
+        foaf:homepage          <http://www.indieszero.co.jp/> ;
+        foaf:name              "indieszero Corporation, Ltd."@en .
+
+<http://dbpedia.org/resource/Ghost_Squad_(video_game)>
+        a                dbo:VideoGame ;
+        rdfs:comment     "Ghost Squad and Ghost Squad: Evolution are light gun rail shooter arcade games developed and published by Sega. A home version of the original Ghost Squad was developed for Nintendo's Wii game console. A sequel, Operation GHOST, was released in arcades in 2012."@en ;
+        dbo:developer    dbr:Polygon_Magic ;
+        dbo:releaseDate  "2020-11-07"^^xsd:date ;
+        foaf:name        "Ghost Squad"@en .
+
+dbr:Lethal_Enforcers_3
+        a                dbo:VideoGame ;
+        rdfs:comment     "Lethal Enforcers 3, known as Seigi no Hero (正義のヒーロー—Heroes of Justice) in Japan is a 3D arcade light gun game which is the third installment to Konami's Lethal Enforcers series. Although the game sports the Lethal Enforcers name outside Japan, Konami has acknowledged the game as the successor to Police 911."@en ;
+        dbo:developer    dbr:Polygon_Magic ;
+        dbo:releaseDate  "2015-04-04"^^xsd:date ;
+        foaf:name        "Lethal Enforcers 3"@en .
+
+dbr:MazeFinger  a        dbo:VideoGame ;
+        rdfs:comment     "MazeFinger is a game developed and published by ngmoco for the iOS platform. It is available for download on the iPhone and iPod touch on the App Store or iTunes."@en ;
+        dbo:developer    dbr:Ngmoco ;
+        dbo:releaseDate  "2008-10-17"^^xsd:date ;
+        foaf:name        "MazeFinger"@en .
+
+dbr:Tap_Tap_Revenge  a   dbo:VideoGame ;
+        rdfs:comment     "Tap Tap Revenge, also known as Tap Tap Revenge Classic was a music game created by Nate True, and developed and published by Tapulous for the iOS in July 2008. It is the first game in Tapulous' Tap Tap series. Development for the game began prior to the release of the iPhone SDK, and was originally entitled Tap Tap Revolution. The goal of the game is to tap each of the colored balls when they reach a line at the bottom of the screen. If the ball is hit on the beat, the player gains points, but if not, it counts as a miss. There are also \"shakes\", which require the player to move the iPhone, iPod Touch or iPad (although the game was designed for the former two) to the right, left, or middle."@en ;
+        dbo:developer    dbr:Tapulous ;
+        dbo:releaseDate  "2008-07-11"^^xsd:date ;
+        foaf:name        "Tap Tap Revenge"@en .
+
+dbr:SouthPeak_Games  a         yago:WikicatVideoGameDevelopmentCompanies ;
+        rdfs:comment           "SouthPeak Games (formerly called SouthPeak Interactive) was a video game publisher of titles in Europe and North America. In 2012, SouthPeak Games went out of business."@en ;
+        dbo:numberOfEmployees  "100"^^xsd:nonNegativeInteger ;
+        foaf:homepage          <http://www.southpeakgames.com/> ;
+        foaf:name              "SouthPeak Games"@en .
+
+<http://dbpedia.org/resource/Oink!_(video_game)>
+        a                dbo:VideoGame ;
+        rdfs:comment     "Oink! is a video game produced and published by Activision and released in 1983 for the Atari 2600 video game system. Designed by Mike Lorenzen, Oink! is inspired by the fairy tale \"The Three Little Pigs\" and casts the player as a pig defending his home from a wolf bent on destroying it."@en ;
+        dbo:developer    dbr:Activision ;
+        dbo:releaseDate  "1983-12-27"^^xsd:date ;
+        foaf:name        "Oink!"@en .
+
+dbr:GoPets:_Vacation_Island
+        a                dbo:VideoGame ;
+        rdfs:comment     "GoPets: Vacation Island is a 2008 virtual pet video game for the Nintendo DS. It was developed by 1st Playable Productions and Engine Software and published by Konami"@en ;
+        dbo:developer    dbr:1st_Playable_Productions ;
+        dbo:releaseDate  "2008-03-26"^^xsd:date ;
+        foaf:name        "GoPets: Vacation Island"@en .
+
+dbr:Tzar:_The_Burden_of_the_Crown
+        a                dbo:VideoGame ;
+        rdfs:comment     "Tzar: The Burden of the Crown is a real-time strategy game for the PC published by Take-Two Interactive and developed by the Bulgarian game developer company Haemimont Games. It was released March 31, 2000 in the West. The game was met with moderate success; however, it got mild recognition and audience when it was published as a demo in several gaming magazines."@en ;
+        dbo:developer    dbr:Haemimont_Games ;
+        dbo:releaseDate  "2000-03-31"^^xsd:date ;
+        foaf:name        "Tzar: The Burden of the Crown"@en .
+
+dbr:Endless_Ocean  a     dbo:VideoGame ;
+        rdfs:comment     "Endless Ocean (Forever Blue in Japan) is a video game for the Wii. It is published by Nintendo and was developed by Arika. It was released on August 2, 2007, in Japan, November 9, 2007, in Europe and January 21, 2008 in North America after it had been planned for an October 2007 release. A sequel entitled Endless Ocean 2: Adventures of the Deep was released in Japan on September 17, 2009, and in Europe on February 5, 2010; it was released in North America on February 22, 2010 with the title Endless Ocean: Blue World."@en ;
+        dbo:developer    dbr:Arika ;
+        dbo:releaseDate  "2007-08-02"^^xsd:date ;
+        foaf:name        "Endless Ocean"@en .
+
+dbr:Marvelous_Entertainment
+        a                      yago:WikicatVideoGameDevelopmentCompanies ;
+        rdfs:comment           "Marvelous Entertainment Inc. (株式会社 マーベラスエンターテイメント Kabushiki-gaisha Māberasu Entāteimento) (MMV) is a multinational corporation that produces animation, music, video games, television series. MMV is most widely known for its involvement in the Story of Seasons series. The MMV abbreviation, found in the company logo, stands for Marvelous Media Vibration, which originally stood for Marvelous Music Vibration."@en ;
+        dbo:numberOfEmployees  "184"^^xsd:nonNegativeInteger ;
+        foaf:homepage          <http://www.mmv.co.jp/> ;
+        foaf:name              "Marvelous Entertainment Inc."@en .
+
+dbr:Beyond:_Two_Souls
+        a                dbo:VideoGame ;
+        rdfs:comment     "Beyond: Two Souls is an interactive drama action-adventure video game for the PlayStation 3 home video game console, created by French game developer Quantic Dream and published by Sony Computer Entertainment. It was released in October 2013. The game features Jodie Holmes, one of two player characters. The other is an incorporeal entity named Aiden: a separate soul linked to Jodie since birth. Jodie, who is portrayed by actress Ellen Page, possesses supernatural powers through her psychic link to Aiden, growing from adolescence to adulthood while learning to control Aiden and the powers they share. Willem Dafoe co-stars as Nathan Dawkins, a researcher in the Department of Paranormal Activity and Jodie's surrogate-father-figure. The actors in the game worked during the year-long project in"@en ;
+        dbo:developer    dbr:Quantic_Dream ;
+        dbo:releaseDate  "2013-10-08"^^xsd:date ;
+        foaf:name        "Beyond: Two Souls"@en .
+
+dbr:Idea_Factory  a            yago:WikicatVideoGameDevelopmentCompanies ;
+        rdfs:comment           "Idea Factory (アイディアファクトリー株式会社 Aidia Fakutorī Kabushiki-gaisha) is a Japanese video game developer and publisher founded by former employees of Data East on October 26, 1994 headed by company chairman Shingo Kuwana and president Yoshiteru Sato. On 30 September 2013, Idea Factory opened their international branch based in California, under the name Idea Factory International. A subsection of Idea Factory develops otome games, under the name of Otomate."@en ;
+        dbo:numberOfEmployees  "104"^^xsd:nonNegativeInteger ;
+        foaf:homepage          <http://www.ideafintl.com/> , <http://www.ideaf.co.jp/> ;
+        foaf:name              "Idea Factory Co., Ltd."@en .
+
+dbr:Nine_Inch_Nails_Revenge
+        a                dbo:VideoGame ;
+        rdfs:comment     "Nine Inch Nails Revenge is a rhythm game developed by Tapulous available for the iOS platform. The video game has been themed to American industrial rock act Nine Inch Nails. It is a part of the Tap Tap series, and is based on the game engine of the first Tap Tap Revenge (2008)."@en ;
+        dbo:developer    dbr:Tapulous ;
+        dbo:releaseDate  "2009-03-08"^^xsd:date ;
+        foaf:name        "Nine Inch Nails Revenge"@en .
+
+dbr:Donkey_Kong_Barrel_Blast
+        a                dbo:VideoGame ;
+        rdfs:comment     "Donkey Kong Barrel Blast, known in Europe and Australia as Donkey Kong Jet Race, in Japan as Donkey Kong Barrel Jet Race (ドンキーコング たるジェットレース Donkī Kongu Taru Jetto Rēsu), is a racing game for Nintendo's Wii video game console, announced on May 9, 2006, and that year's E3 convention for the Nintendo GameCube under the title of DK: Bongo Blast. The Gamecube version was ultimately cancelled in favor of a Wii release along with Super Paper Mario. The game was released for the Wii in Japan and the United States in 2007, and in PAL regions in 2008."@en ;
+        dbo:developer    dbr:Paon ;
+        dbo:releaseDate  "1925-01-07"^^xsd:date ;
+        foaf:name        "Donkey Kong Barrel Blast"@en .
+
+dbr:The_Activision_Decathlon
+        a                dbo:VideoGame ;
+        rdfs:comment     "The Activision Decathlon is a sports game written by David Crane for the Atari 2600 and published by Activision in 1983. It was ported to the Atari 8-bit family, Atari 5200, Commodore 64, ColecoVision and MSX platforms. Up to four players compete in the ten different events of a real-life decathlon, either in sequence or individually. The game became somewhat notorious for the amount of wear or damage inflicted upon console controllers, namely the Atari 2600 version where rapid back-and-forth movement of the joystick propels the athlete down the track."@en ;
+        dbo:developer    dbr:Activision ;
+        dbo:releaseDate  "1983-03-18"^^xsd:date ;
+        foaf:name        "The Activision Decathlon"@en .
+
+dbr:Radirgy_Noa  a       dbo:VideoGame ;
+        rdfs:comment     "Radirgy Noa (also written as Radirgynoa) is a vertically scrolling shoot 'em up that was released in June 2009 for the Sega Naomi arcade platform by Milestone Inc. and the sequel to Radirgy. It was later released on February 25, 2010, in Japan for the Wii under the name Radirgy Noa Wii, distributed by LUCKY Co. LTD. It was also been ported to the Xbox 360 on October 28, 2010, with new features, as Radirgy Noa Massive. A Microsoft Windows version was released on February 25, 2011, as part of the Milestone Sound Collection."@en ;
+        dbo:developer    <http://dbpedia.org/resource/MileStone_Inc.> ;
+        dbo:releaseDate  "2011-02-25"^^xsd:date ;
+        foaf:name        "Radirgy Noa"@en .
+
+<http://dbpedia.org/resource/MileStone_Inc.>
+        a                      yago:WikicatVideoGameDevelopmentCompanies ;
+        rdfs:comment           "MileStone Inc. (株式会社マイルストーン) was a Japanese arcade videogame developer, made up mostly of arcade developers who left Compile to form their own company. They were best known for shoot 'em up games developed for the Dreamcast (after the console's official discontinuation) and its arcade counterpart, the Sega NAOMI. In March 2013, Hiroshi Kimura, the president of MileStone, was arrested for violations of the Financial Instruments and Exchange Act for his activities while selling shares of a new company called MS Bio Energy. Both companies closed as a result."@en ;
+        dbo:numberOfEmployees  "16"^^xsd:nonNegativeInteger ;
+        foaf:homepage          <https://web.archive.org/web/20121120210625/http:/www.mile-stone.co.jp/> ;
+        foaf:name              "MileStone Inc."@en .
+
+dbr:Wolfire_Games  a           yago:WikicatVideoGameDevelopmentCompanies ;
+        rdfs:comment           "Wolfire Games is an independent video game development company founded by David Rosen. Wolfire Games develops video games for Mac OS, Windows, and Linux."@en ;
+        dbo:numberOfEmployees  "4"^^xsd:nonNegativeInteger ;
+        foaf:homepage          <http://www.wolfire.com/> ;
+        foaf:name              "Wolfire Games"@en .
+
+dbr:Hyperdimension_Neptunia_Victory
+        a                dbo:VideoGame ;
+        rdfs:comment     "Hyperdimension Neptunia Victory (神次元ゲイムネプテューヌV Kami Jigen Game Neptune V, also known as Ultra Dimension Neptune V) is a 2012 action role-playing game developed and published by Idea Factory along with the assistance of Compile Heart. It is the third installment in the Hyperdimension Neptunia franchise. Set in the year 1989, the story takes place after Hyperdimension Neptunia Mk2 in an alternate dimension to Gamindustri, bringing more insight to the \"Console War\" story arc. The game was released on August 30, 2012 in Japan and in North America and Europe in March 2013. Like the first game, this game received a rating of \"Teen\" by the Entertainment Software Rating Board."@en ;
+        dbo:developer    dbr:Idea_Factory ;
+        dbo:releaseDate  "1930-06-14"^^xsd:date ;
+        foaf:name        "Hyperdimension Neptunia Victory"@en .
+
+dbr:Eliminate_Pro  a     dbo:VideoGame ;
+        rdfs:comment     "Eliminate Pro (also known as Eliminate) was a first-person shooter developed for iOS by Ngmoco.Ngmoco has officially stopped development on it, and in May 2012 shut off the login/game servers and removed it from the Apple App Store.Eliminate was based on the open source Quake 3 engine."@en ;
+        dbo:developer    dbr:Ngmoco ;
+        dbo:releaseDate  "2009-12-06"^^xsd:date ;
+        foaf:name        "Eliminate Pro"@en .
+
+dbr:Chunsoft  a                yago:WikicatVideoGameDevelopmentCompanies ;
+        rdfs:comment           "Chunsoft Co., Ltd. (株式会社チュンソフト Kabushiki-gaisha Chunsofuto) was a Japanese video game developer specializing in role-playing video game and visual novels. It was founded by Koichi Nakamura, a video game designer and programmer who had clasped with Enix. They are best known as the creators of the Mystery Dungeon series, the first five installments of the Dragon Quest series of role-playing video games, and the Sound Novels series of graphic adventure games. In April 2012, the company merged with Spike to become Spike Chunsoft."@en ;
+        dbo:numberOfEmployees  "67"^^xsd:nonNegativeInteger ;
+        foaf:homepage          <http://www.spike-chunsoft.co.jp> ;
+        foaf:name              "Chunsoft Co., Ltd."@en .
+
+dbr:Theatrhythm_Final_Fantasy:_Curtain_Call
+        a                dbo:VideoGame ;
+        rdfs:comment     "Theatrhythm Final Fantasy: Curtain Call (シアトリズム ファイナルファンタジーカーテンコール Shiatorizumu Fainaru Fantajī Kātenkōru, pronounced \"theatre-rhythm\") is a rhythm video game. A sequel to the 2012 video game Theatrhythm Final Fantasy and the latest title in the rhythm series, it features similar gameplay to its predecessor. It was released for the Nintendo 3DS on April 24, 2014 in Japan, on September 16, 2014 in North America and in Europe on September 19, 2014."@en ;
+        dbo:developer    dbr:Indieszero ;
+        dbo:releaseDate  "2014-04-24"^^xsd:date ;
+        foaf:name        "Theatrythm Final Fantasy: Curtain Call"@en .
+
+dbr:Ngmoco  a                  yago:WikicatVideoGameDevelopmentCompanies ;
+        rdfs:comment           "ngmoco, LLC is an American-based publisher of video games for the iOS and Android platforms, and a subsidiary of DeNA Co., Ltd.. The company was founded by former Electronic Arts executive Neil Young in July 2008. Since its founding, ngmoco has had more than seven million combined game installs. Venture capital firms Kleiner Perkins Caufield & Byers and Norwest Venture Partners, among others, have financed the company with a combined total of $40.6 million USD. The company is most well known for their publishing of the Rolando game series and Eliminate."@en ;
+        dbo:numberOfEmployees  "26"^^xsd:nonNegativeInteger ;
+        foaf:homepage          <http://www.ngmoco.com> ;
+        foaf:name              "ngmoco, LLC"@en .
+
+dbr:Zork:_Grand_Inquisitor
+        a                dbo:VideoGame ;
+        rdfs:comment     "Zork: Grand Inquisitor is a graphic adventure game developed by Activision and released for Windows in 1997, and for Macintosh in 2001. It builds upon the Zork and Enchanter series of interactive fiction video games originally released by Infocom, and sees players attempting to restore magic to Zork, solving puzzles and using spells. The game features a notable cast of characters, with stars including Erick Avari, Michael McKean, Amy D. Jacobson, Marty Ingels, Earl Boen, Jordana Capra, Dirk Benedict, and Rip Taylor. Zork: The Undiscovered Underground was written and released as a promotional prequel to the game."@en ;
+        dbo:developer    dbr:Activision ;
+        dbo:releaseDate  "1997-10-31"^^xsd:date ;
+        foaf:name        "Zork: Grand Inquisitor"@en .
+
+dbr:Michael_Schumacher_Racing_World_Kart_2002
+        a                dbo:VideoGame ;
+        rdfs:comment     "Michael Schumacher Racing World Kart 2002 is a racing video game released for PlayStation and Microsoft Windows in 2002, developed by Radon Labs and published by JoWooD Entertainment."@en ;
+        dbo:developer    dbr:Radon_Labs ;
+        dbo:releaseDate  "2002-09-18"^^xsd:date ;
+        foaf:name        "Michael Schumacher Racing World Kart 2002"@en .
