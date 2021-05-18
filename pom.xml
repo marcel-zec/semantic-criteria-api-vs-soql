@@ -41,7 +41,7 @@
         <dependency>
             <groupId>com.github.marcel-zec</groupId>
             <artifactId>jopa</artifactId>
-            <version>development-SNAPSHOT</version>
+            <version>9f2842d96c</version>
         </dependency>
 
         <!--        <dependency>-->

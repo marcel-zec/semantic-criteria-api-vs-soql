@@ -4,10 +4,7 @@ import cz.cvut.fel.zecmarce.semanticcriteriaapi.criteriavssoql.model.*;
 import cz.cvut.fel.zecmarce.semanticcriteriaapi.criteriavssoql.persistence.GameRepository;
 import cz.cvut.kbss.jopa.model.EntityManager;
 import cz.cvut.kbss.jopa.model.query.TypedQuery;
-import cz.cvut.kbss.jopa.model.query.criteria.CriteriaQuery;
-import cz.cvut.kbss.jopa.model.query.criteria.ParameterExpression;
-import cz.cvut.kbss.jopa.model.query.criteria.Predicate;
-import cz.cvut.kbss.jopa.model.query.criteria.Root;
+import cz.cvut.kbss.jopa.model.query.criteria.*;
 import cz.cvut.kbss.jopa.sessions.CriteriaBuilder;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -17,7 +14,6 @@ import org.springframework.context.ApplicationListener;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @Service
@@ -35,6 +31,9 @@ public class ComparisonService implements ApplicationListener<ApplicationReadyEv
         this.gr = gr;
     }
 
+    /**
+     * This method is called after application starts.
+     */
     @Transactional
     @Override
     public void onApplicationEvent(ApplicationReadyEvent applicationReadyEvent) {
@@ -67,8 +66,8 @@ public class ComparisonService implements ApplicationListener<ApplicationReadyEv
     private boolean comparison1(){
         CriteriaBuilder cb = em.getCriteriaBuilder();
         CriteriaQuery<Game> query = cb.createQuery(Game.class);
-        Root<Game> game = query.from(Game.class);
-        query.select(game);
+        Root<Game> g = query.from(Game.class);
+        query.select(g);
         TypedQuery<Game> typedQuery = em.createQuery(query);
         final List<Game> criteriaResults = typedQuery.getResultList();
 
@@ -86,9 +85,9 @@ public class ComparisonService implements ApplicationListener<ApplicationReadyEv
 
         CriteriaBuilder cb = em.getCriteriaBuilder();
         CriteriaQuery<Game> query = cb.createQuery(Game.class);
-        Root<Game> game = query.from(Game.class);
+        Root<Game> g = query.from(Game.class);
         ParameterExpression<String> name = cb.parameter(String.class);
-        query.select(game).where(cb.equal(game.getAttr(Game_.name), name));
+        query.select(g).where(cb.equal(g.getAttr(Game_.name), name));
         TypedQuery<Game> typedQuery = em.createQuery(query).setParameter(name,parameterValue,"en");
         final Game criteriaResults = typedQuery.getSingleResult();
 
@@ -106,9 +105,9 @@ public class ComparisonService implements ApplicationListener<ApplicationReadyEv
 
         CriteriaBuilder cb = em.getCriteriaBuilder();
         CriteriaQuery<Game> query = cb.createQuery(Game.class);
-        Root<Game> game = query.from(Game.class);
+        Root<Game> g = query.from(Game.class);
         ParameterExpression<String> name = cb.parameter(String.class);
-        query.select(game).where(cb.not(cb.equal(game.getAttr(Game_.name), name)));
+        query.select(g).where(cb.not(cb.equal(g.getAttr(Game_.name), name)));
         TypedQuery<Game> typedQuery = em.createQuery(query).setParameter(name,parameterValue,"en");
         final List<Game> criteriaResults = typedQuery.getResultList();
 
@@ -126,9 +125,10 @@ public class ComparisonService implements ApplicationListener<ApplicationReadyEv
 
         CriteriaBuilder cb = em.getCriteriaBuilder();
         CriteriaQuery<Game> query = cb.createQuery(Game.class);
-        Root<Game> game = query.from(Game.class);
+        Root<Game> g = query.from(Game.class);
         ParameterExpression<Integer> amount = cb.parameter(Integer.class);
-        query.select(game).where(cb.lessThanOrEqual(game.getAttr(Game_.developer).getAttr(Developer_.employeeCount), amount));
+        Path<Integer> pathJoin = g.getAttr(Game_.developer).getAttr(Developer_.employeeCount);
+        query.select(g).where(cb.lessThanOrEqual(pathJoin, amount));
         TypedQuery<Game> typedQuery = em.createQuery(query).setParameter(amount,amountValue);
         final List<Game> criteriaResults = typedQuery.getResultList();
 
@@ -146,9 +146,9 @@ public class ComparisonService implements ApplicationListener<ApplicationReadyEv
 
         CriteriaBuilder cb = em.getCriteriaBuilder();
         CriteriaQuery<Integer> query = cb.createQuery(Integer.class);
-        Root<Developer> developer = query.from(Developer.class);
+        Root<Developer> d = query.from(Developer.class);
         ParameterExpression<Integer> amount = cb.parameter(Integer.class);
-        query.select(cb.count(developer)).where(cb.greaterThanOrEqual(developer.getAttr(Developer_.employeeCount), amount));
+        query.select(cb.count(d)).where(cb.greaterThanOrEqual(d.getAttr(Developer_.employeeCount), amount));
         TypedQuery<Integer> typedQuery = em.createQuery(query).setParameter(amount, parameterValue);
         final Integer criteriaResults = typedQuery.getSingleResult();
 
@@ -167,12 +167,12 @@ public class ComparisonService implements ApplicationListener<ApplicationReadyEv
 
         CriteriaBuilder cb = em.getCriteriaBuilder();
         CriteriaQuery<Developer> query = cb.createQuery(Developer.class);
-        Root<Developer> developer = query.from(Developer.class);
+        Root<Developer> d = query.from(Developer.class);
         ParameterExpression<String> name = cb.parameter(String.class);
         ParameterExpression<Integer> amount = cb.parameter(Integer.class);
-        Predicate nameRestriction = cb.like(developer.getAttr(Developer_.name), name);
-        Predicate amountRestriction = cb.lessThan(developer.getAttr(Developer_.employeeCount),amount);
-        query.select(developer).where(nameRestriction,amountRestriction);
+        Predicate nameRestriction = cb.like(d.getAttr(Developer_.name), name);
+        Predicate amountRestriction = cb.lessThan(d.getAttr(Developer_.employeeCount),amount);
+        query.select(d).where(nameRestriction,amountRestriction);
         TypedQuery<Developer> typedQuery = em.createQuery(query).setParameter(name, nameParameterValue).setParameter(amount, amountParameterValue);
         final List<Developer> criteriaResults = typedQuery.getResultList();
 
@@ -192,14 +192,16 @@ public class ComparisonService implements ApplicationListener<ApplicationReadyEv
 
         CriteriaBuilder cb = em.getCriteriaBuilder();
         CriteriaQuery<Developer> query = cb.createQuery(Developer.class);
-        Root<Developer> developer = query.from(Developer.class);
+        Root<Developer> d = query.from(Developer.class);
         ParameterExpression<Integer> param1 = cb.parameter(Integer.class);
         ParameterExpression<Integer> param2 = cb.parameter(Integer.class);
-        Predicate firstRestricion = cb.greaterThanOrEqual(developer.getAttr(Developer_.employeeCount), param1);
-        Predicate secondRestriction = cb.lessThanOrEqual(developer.getAttr(Developer_.employeeCount), param2);
+        Predicate firstRestricion = cb.greaterThanOrEqual(d.getAttr(Developer_.employeeCount), param1);
+        Predicate secondRestriction = cb.lessThanOrEqual(d.getAttr(Developer_.employeeCount), param2);
         Predicate restrictions = cb.or(firstRestricion,secondRestriction);
-        query.select(developer).where(restrictions)
-                .orderBy(cb.desc(developer.getAttr(Developer_.employeeCount)),cb.asc(developer.getAttr(Developer_.name)));
+        Order firstOrder = cb.desc(d.getAttr(Developer_.employeeCount));
+        Order secondOrder = cb.asc(d.getAttr(Developer_.name));
+        query.select(d).where(restrictions)
+                .orderBy(firstOrder,secondOrder);
         TypedQuery<Developer> typedQuery = em.createQuery(query)
                 .setParameter(param1, value1).setParameter(param2, value2);
         final List<Developer> criteriaResults = typedQuery.getResultList();
@@ -218,7 +220,7 @@ public class ComparisonService implements ApplicationListener<ApplicationReadyEv
         System.out.println("\n----- " + methodName + " -----");
         if (x.size() == y.size()){
             for (IdentifiableEntity e: x) {
-                if (!y.stream().anyMatch(item -> item.getUri().equals(e.getUri()))){
+                if (y.stream().noneMatch(item -> item.getUri().equals(e.getUri()))){
                     System.out.println("--- DIFFERENT RESULTS -----------------------");
                     return false;
                 }
